@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: blue;
+    color:cyan;
+    text-align: center;
+    padding: 10px 0;
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+    padding: 40px 0;
+}
+
+main {
+    max-width: 570px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+}
