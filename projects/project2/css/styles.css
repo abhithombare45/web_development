@@ -117,7 +117,6 @@ section.hero button {
 
 section.best-sellers {
     padding-top: 90px;
-    padding-bottom: 80px;
     /* background-color: chartreuse; */
 }
 
@@ -195,14 +194,33 @@ section.best-sellers .product-slider .product h4 {
     line-height: 26px;
     margin-top: 0;
     margin-bottom: 10px;    
+}   
+
+section.best-sellers .product-slider .product .price {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px; 
 }
 
-section.best-sellers .product-slider .product h3 {
+section.best-sellers .product-slider .product .price h3 {
     font-weight: 700;
     font-size: 28px;
     line-height: 30px;
     margin-top: 0;
-    margin-bottom: 20px;    
+}
+
+section.best-sellers .product-slider .product .price.discount h3 {
+    color: red;
+}
+
+section.best-sellers .product-slider .product .price span.original-price {
+    margin: 0 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9B9B9B;
+    text-decoration: line-through;
 }
 
 section.best-sellers .product-slider .product button {
@@ -216,4 +234,29 @@ section.best-sellers .product-slider .product button {
     font-size: 16px;
     line-height: 24px;
     text-transform: uppercase;
+}
+
+section.newsletter {
+    background-color: #f5f5f5;
+    width: 950px;
+    max-width: 100%;
+    margin: 80px auto;  
+    padding: 72px 0;
+    text-align: center;
+}
+
+section.newaletter h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px; 
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+section.newaletter p {
+    font-size: 16px;
+    line-height: 24px; 
+    margin-top: 0;
+    margin-bottom: 20px;
 }
