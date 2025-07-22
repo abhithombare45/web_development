@@ -55,15 +55,6 @@ header .container {
     justify-content: space-between;
 }
 
-/* HERO Section  Way-I */
-/* section.hero {
-    width: 100%;
-    height: 650px;
-    background-image: url('../images/Hero_Large_Desktop.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
-
 section.hero {
     position: relative;
 }
@@ -160,6 +151,24 @@ section.best-sellers .product-slider .product {
     text-align: center;
     width: 33%;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative; /* added because we have added postion abs in ::before ["New" tag]*/
+}
+
+section.best-sellers .product-slider .product.new::before {    
+    content: "New";
+    position: absolute;
+    background-color: #614DC9;
+    top: 12px;
+    right: 12px;
+    text-align: center;
+    color: white;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 5px 26px;
 }
 
 section.best-sellers .product-slider .product .product-info {
