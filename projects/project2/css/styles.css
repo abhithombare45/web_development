@@ -49,6 +49,10 @@ header nav ul li a {
     font-size: 15px;
 }
 
+header nav ul li a:hover {
+    color: #33C6DD;
+}
+
 header .container {
     display: flex;
     align-items: center;
@@ -115,6 +119,12 @@ section.hero button {
     text-transform: uppercase;
 }
 
+section.hero button:hover {
+    background-color: white;
+    border: 1px solid #36C6DD;
+    color: #33C6DD;
+}
+
 section.best-sellers {
     padding-top: 90px;
     /* background-color: chartreuse; */
@@ -154,6 +164,10 @@ section.best-sellers .product-slider .product {
     flex-direction: column;
     justify-content: space-between;
     position: relative; /* added because we have added postion abs in ::before ["New" tag]*/
+}
+
+section.best-sellers .product-slider .product:hover {
+    cursor: pointer;
 }
 
 section.best-sellers .product-slider .product.new::before {    
@@ -236,6 +250,13 @@ section.best-sellers .product-slider .product button {
     text-transform: uppercase;
 }
 
+section.best-sellers .product-slider .product:hover button {
+    border: 1px solid #33C6DD;
+    background-color: #33C6DD;
+    color: white;
+    cursor: pointer;
+}
+
 section.newsletter {
     background-color: #f5f5f5;
     width: 950px;
@@ -253,10 +274,104 @@ section.newaletter h3 {
     margin-bottom: 10px;
 }
 
-
 section.newaletter p {
     font-size: 16px;
     line-height: 24px; 
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+section.newsletter input[type=email] {
+    width: 320px;
+    height: 48px;
+    border-radius: 25px 0 0 25px;
+    padding: 0;
+    padding-left: 24px;  /* this will override above padding as we need 24px on left */
+    font-size: 14px;
+    line-height: 21px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+section.newsletter input[type=email]::placeholder {
+    color: #3e3e3e;
+}
+
+section.newsletter button[type=submit] {
+    height: 51px;
+    background-color: #614DC0;
+    border: 1px solid #614DC0;
+    border-radius: 0 25px 25px 0;
+    padding: 0 36px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+section.newsletter button[type=submit]:hover {
+    background-color: White;
+    border: 1px solid #000000;
+    color: #614DC0;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #3e3e3e;
+    color: white;
+    padding: 60px 0;
+}
+
+footer .container {
+    display: flex;    
+    justify-content: space-between;
+    width: 950px;
+    max-width: 100%;
+}
+
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid yellow;  */
+    width: 25%;
+}
+
+footer ul li.list-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #33C6DD;
+}
+
+footer ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+section.copyright {
+    text-align: center;
+    background-color: #2B2B2B;
+    padding: 18px 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #E0E0E0;
 }
