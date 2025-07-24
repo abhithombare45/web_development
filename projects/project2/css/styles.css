@@ -375,3 +375,262 @@ section.copyright {
     line-height: 22px;
     color: #E0E0E0;
 }
+
+/* ####################################### */
+/* Styles    For      Small        Desktop */
+/* ####################################### */
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 1180px;
+        max-width: 90%;
+    }
+
+    section.hero h1, 
+    section.hero p {
+            margin-bottom: 12px;
+    }
+
+    section.hero h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+
+    section.hero p {
+        font-size: 18px;
+        line-height: 26px;
+
+    }
+
+    section.hero button {
+        width: 220px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    section.best-sellers  .product-slider .product h5 {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    section.best-sellers .product-slider .product h4 {
+        font-size: 16px;
+        margin-bottom: 8px;    
+    } 
+
+    section.best-sellers .product-slider .product .price {
+        margin-bottom: 6px; 
+    }
+
+    section.best-sellers .product-slider .product .price h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    section.best-sellers .product-slider .product .price span.original-price {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    section.best-sellers .product-slider .product button {
+        height: 40px;
+        width: 180px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    section.newsletter {
+        width: 880px;
+        margin: 70px auto;  
+        padding: 50px 0;
+    }
+
+    section.newaletter h3 {
+        font-size: 22px;
+        line-height: 42px; 
+    }
+
+    section.newaletter p {
+        font-size: 14px;
+        line-height: 21px; 
+        margin-bottom: 15px;
+    }
+
+    section.newsletter input[type=email] {
+        width: 326px;
+        height: 46px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    section.newsletter button[type=submit] {
+        height: 48px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    footer {
+        padding: 50px 0;
+    }
+
+    footer .container {
+        width: 950px;
+        max-width: 100%;
+    }
+
+    footer ul li.list-title {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    footer ul li {
+        font-size: 14px;
+        line-height: 21px;
+
+    }
+
+    section.copyright {
+        padding: 14px 0;
+        font-size: 14px;
+    }
+
+}
+
+
+/* ####################################### */
+/* Styles           For            Tablet  */
+/* ####################################### */
+@media screen and (max-width: 960px) {
+    .container {
+        width: 92%;
+        max-width: 92%;
+    }
+
+    section.hero h1, 
+    section.hero p {
+            margin-bottom: 12px;
+    }
+
+    section.hero h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+
+    section.hero p {
+        font-size: 18px;
+        line-height: 26px;
+
+    }
+
+    section.hero button {
+        width: 220px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    section.best-sellers  .product-slider .product h5 {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    section.best-sellers .product-slider .product h4 {
+        font-size: 16px;
+        margin-bottom: 8px;    
+    } 
+
+    section.best-sellers .product-slider .product .price {
+        margin-bottom: 6px; 
+    }
+
+    section.best-sellers .product-slider .product .price h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    section.best-sellers .product-slider .product .price span.original-price {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    section.best-sellers .product-slider .product button {
+        height: 40px;
+        width: 180px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    section.newsletter {
+        width: 880px;
+        margin: 70px auto;  
+        padding: 50px 0;
+    }
+
+    section.newaletter h3 {
+        font-size: 22px;
+        line-height: 42px; 
+    }
+
+    section.newaletter p {
+        font-size: 14px;
+        line-height: 21px; 
+        margin-bottom: 15px;
+    }
+
+    section.newsletter input[type=email] {
+        width: 326px;
+        height: 46px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    section.newsletter button[type=submit] {
+        height: 48px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    footer {
+        padding: 50px 0;
+    }
+
+    footer .container {
+        width: 950px;
+        max-width: 100%;
+    }
+
+    footer ul li.list-title {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    footer ul li {
+        font-size: 14px;
+        line-height: 21px;
+
+    }
+
+    section.copyright {
+        padding: 14px 0;
+        font-size: 14px;
+    }
+
+
+
+}
+
+
+/* ####################################### */
+/* Styles    For        Mobile      Screen */
+/* ####################################### */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 92%;
+        max-width: 92%;
+    }
+
+
+
+}
