@@ -644,7 +644,11 @@ section.copyright {
         max-width: 92%;
     }
 
-     section.hero .hero-content {
+    header section.logo {
+        font-size: 18px;
+    }
+
+    section.hero .hero-content {
         position: initial;
         text-align: center;
         margin-top: 26px;
@@ -656,57 +660,82 @@ section.copyright {
 
     section.hero h1, 
     section.hero p {
-                margin-bottom: 32px;
-        }
+            margin-bottom: 32px;
+    }
 
-        section.hero h1 {
-            font-size: 32px;
-            line-height: 38px;
-            color: #000000;
-        }
+    section.hero h1 {
+        font-size: 32px;
+        line-height: 38px;
+        color: #000000;
+    }
 
-        section.hero p {
-            display: none;
+    section.hero p {
+        display: none;
 
-        }
+    }
 
-        section.best-sellers .product-slider .product h4 {
-            font-size: 14px;
-            margin-bottom: 8px;    
-        } 
+    section.best-sellers .product-slider .product {
+        width: 100%;
+        margin-bottom: 24px;
+    }   
+    section.best-sellers .product-slider .product:last-of-type {
+        margin-bottom: 0;
+    }   
+    section.best-sellers .product-slider .container {
+        flex-wrap: wrap;
+    }   
+
+    section.best-sellers .product-slider .product h4 {
+        font-size: 14px;
+        margin-bottom: 8px;    
+    } 
 
 
-        section.best-sellers .product-slider .product .price h3 {
-            font-size: 20px;
-        }
+    section.best-sellers .product-slider .product .price h3 {
+        font-size: 20px;
+    }
 
-        section.best-sellers .product-slider .product .price span.original-price {
-            font-size: 11px;
-        }
+    section.best-sellers .product-slider .product .price span.original-price {
+        font-size: 11px;
+    }
 
-        section.best-sellers .product-slider .product button {
-            height: 36px;
-            width: 190px;
-            max-width: 100%;
-            font-size: 12px;
-            line-height: 18px;
-        }
+    section.best-sellers .product-slider .product button {
+        height: 36px;
+        width: 190px;
+        max-width: 100%;
+        font-size: 12px;
+        line-height: 18px;
+    }
 
-        section.newsletter {
-            margin: 64px auto;  
-            padding: 44px 0;
-        }
+    section.newsletter {
+        margin: 64px auto;  
+        padding: 44px 0;
+    }
 
-        section.newsletter input[type=email] {
-            width: 210px;
-        }
+    section.newsletter input[type=email] {
+        width: 210px;
+    }
 
-        section.newsletter button[type=submit] {
-            padding: 0 20px;            
-        }
+    section.newsletter button[type=submit] {
+        padding: 0 20px;            
+    }
 
-        footer {
-            padding: 48px 0;
-        }
+    footer {
+        padding: 48px 0;
+    }
+
+    footer .container {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    footer ul {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    footer ul:last-of-type {
+        margin-bottom: 0;
+    }
 
 }
