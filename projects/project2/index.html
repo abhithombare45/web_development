@@ -36,7 +36,12 @@
 
         
         <section class="hero">
-            <img src="./images/Hero_Large_Desktop.jpg" alt="Hero Image - VR Headsets">
+            <picture>
+                <source media="( max-width: 576px )" srcset="./images/Hero_Mobile.jpg">
+                <source media="( max-width: 960px )" srcset="./images/Hero_Tablet.jpg">
+                <source media="( max-width: 1440px )" srcset="./images/Hero_Large_Desktop.jpg">
+                <img src="./images/Hero_Large_Desktop.jpg" alt="Hero Image - VR Headsets">
+            </picture>
 
             <div class="hero-content">
                 <div class="container">
