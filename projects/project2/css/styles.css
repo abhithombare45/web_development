@@ -380,6 +380,7 @@ section.copyright {
     color: #E0E0E0;
 }
 
+
 /* ####################################### */
 /* Styles    For      Small        Desktop */
 /* ####################################### */
@@ -737,5 +738,5 @@ section.copyright {
     footer ul:last-of-type {
         margin-bottom: 0;
     }
-
+    
 }
