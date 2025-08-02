@@ -47,7 +47,7 @@ setInterval(function(){
 // Gallery Sectoion: 
 // #################
 
-const gallaryImages = [
+const galleryImages = [
      {
           "src": "./assets/gallery/image1.jpg",
           "alt": "Thumbnail Image 1"
@@ -62,6 +62,19 @@ const gallaryImages = [
      }
 ];
 
-for(img in gallaryImages){
-     console.log(gallaryImages[img])
-}
+
+let mainImage = document.querySelector("#gallery > img");
+let thumbnails = document.querySelector("#gallery .thumbnails");
+
+mainImage.src = galleryImages[0].src;
+mainImage.alt = galleryImages[0].alt;
+ 
+galleryImages.forEach(function(image, index){
+    let thumb = document.createElement("img");
+    thumb.src =  image.src;
+    thumb.alt = image.alt;
+    thumb.dataset.arrayIndex = index;
+    thumb.dataset.selected = false;
+    thumbnails.appendChild(thumb);
+});
+  
