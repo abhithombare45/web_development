@@ -15,6 +15,18 @@ function celsiusToFahr(temperature){
      return fahr;
 }
 
+let currentHour = new Date().getHours;
+
+if (currentHour < 12) {
+     greetingText = "Good Morning!";
+} else if (currentHour < 19) {
+     greetingText = "Good Afternoon!";
+} else if (currentHour < 24) {
+     greetingText = "Good Evening!";
+} else {
+     "Welcome! to the Abhijeet45's work."
+}
+
 const greetingText = "Good Evening!";
 const weatherCondition = "cludy";
 const userLocation = "Pune";
@@ -78,7 +90,21 @@ galleryImages.forEach(function(image, index){
     thumb.src =  image.src;
     thumb.alt = image.alt;
     thumb.dataset.arrayIndex = index;
-    thumb.dataset.selected = index === 0 ?     true : false;
+    thumb.dataset.selected = index === 0 ? true : false;
+    
+    thumb.addEventListener("click", function(e){
+          let selectedIndex = e.target.dataset.arrayIndex;
+          let selectedImage = galleryImages[selectedIndex];
+          mainImage.src = selectedImage.src;
+          mainImage.alt = selectedImage.alt;
+
+          thumbnails.querySelectorAll("img").forEach(function(img){
+               img.dataset.selected = false;
+          });
+
+          e.target.dataset.selected = true;
+    });
+    
     thumbnails.appendChild(thumb);
 });
   
