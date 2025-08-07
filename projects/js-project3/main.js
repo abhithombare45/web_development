@@ -1,3 +1,4 @@
+
 // const and veriable declaration 
 const galleryImages = [
      {
@@ -82,7 +83,7 @@ function celsiusToFahr(temperature){
 
 // Greeting section 
 function greetingHandler() {
-     let currentHour = new Date().getHours;
+     let currentHour = new Date().getHours();
 
      if (currentHour < 12) {
           greetingText = "Good Morning!";
@@ -94,7 +95,7 @@ function greetingHandler() {
           "Welcome! to the Abhijeet45's work."
      }
 
-     const greetingText = "Good Evening!";
+     // const greetingText = "Good Evening!";
      const weatherCondition = "cludy";
      const userLocation = "Pune";
      let temperature = 25;
