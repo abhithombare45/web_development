@@ -13,7 +13,7 @@ const galleryImages = [
           "src": "./assets/gallery/image2.jpg",
           "alt": "Thumbnail Image 2"
      },
-     { 
+     {
           "src": "./assets/gallery/image3.jpg",
           "alt": "Thumbnail Image 3"
      }
@@ -56,16 +56,16 @@ const products = [
           price: 45,
           image: "./assets/products/img4.png"
      }
-     ];
+];
 // ********************************************** // 
 
 // Menu Section
 function menuHandler() {
-     document.querySelector("#open-nav-menu").addEventListener("click", function(){
+     document.querySelector("#open-nav-menu").addEventListener("click", function () {
           document.querySelector("header nav .wrapper").classList.add("nav-open");
      });
 
-     document.querySelector("#close-nav-menu").addEventListener("click", function(){
+     document.querySelector("#close-nav-menu").addEventListener("click", function () {
           document.querySelector("header nav .wrapper").classList.remove("nav-open");
      });
 
@@ -74,8 +74,8 @@ function menuHandler() {
 // ********************************************** // 
 
 // Celcius to Fahrnheit temp conversion
-function celsiusToFahr(temperature){
-     let fahr = (temperature * 9/5)+32;
+function celsiusToFahr(temperature) {
+     let fahr = (temperature * 9 / 5) + 32;
      return fahr;
 }
 
@@ -106,14 +106,14 @@ function greetingHandler() {
      document.querySelector("#greeting").innerHTML = greetingText;
 
      // Radio Button: 
-     document.querySelector(".weather-group").addEventListener("click",function(e){
+     document.querySelector(".weather-group").addEventListener("click", function (e) {
           if (e.target.id == "celsius") {
-               document.querySelector("p#weather").innerHTML = celsiusText; 
+               document.querySelector("p#weather").innerHTML = celsiusText;
           } else if (e.target.id == "fahr") {
-               document.querySelector("p#weather").innerHTML = fahrText; 
+               document.querySelector("p#weather").innerHTML = fahrText;
           }
 
-     });      
+     });
 }
 
 // ********************************************** // 
@@ -121,11 +121,11 @@ function greetingHandler() {
 // LocaTime Section
 function clockHandler() {
      // Contineous update seconds in time section
-     setInterval(function(){
-          let localTime= new Date();
-          document.querySelector("span[data-time=hours]").textContent = localTime.getHours().toString().padStart(2,"0");
-          document.querySelector("span[data-time=minutes]").textContent = localTime.getMinutes().toString().padStart(2,"0");
-          document.querySelector("span[data-time=seconds]").textContent = localTime.getSeconds().toString().padStart(2,"0");
+     setInterval(function () {
+          let localTime = new Date();
+          document.querySelector("span[data-time=hours]").textContent = localTime.getHours().toString().padStart(2, "0");
+          document.querySelector("span[data-time=minutes]").textContent = localTime.getMinutes().toString().padStart(2, "0");
+          document.querySelector("span[data-time=seconds]").textContent = localTime.getSeconds().toString().padStart(2, "0");
      }, 1000);
 }
 
@@ -138,28 +138,28 @@ function galleryHandler() {
 
      mainImage.src = galleryImages[0].src;
      mainImage.alt = galleryImages[0].alt;
-     
-     galleryImages.forEach(function(image, index){
-     let thumb = document.createElement("img");
-     thumb.src =  image.src;
-     thumb.alt = image.alt;
-     thumb.dataset.arrayIndex = index;
-     thumb.dataset.selected = index === 0 ? true : false;
-     
-     thumb.addEventListener("click", function(e){
+
+     galleryImages.forEach(function (image, index) {
+          let thumb = document.createElement("img");
+          thumb.src = image.src;
+          thumb.alt = image.alt;
+          thumb.dataset.arrayIndex = index;
+          thumb.dataset.selected = index === 0 ? true : false;
+
+          thumb.addEventListener("click", function (e) {
                let selectedIndex = e.target.dataset.arrayIndex;
                let selectedImage = galleryImages[selectedIndex];
                mainImage.src = selectedImage.src;
                mainImage.alt = selectedImage.alt;
 
-               thumbnails.querySelectorAll("img").forEach(function(img){
+               thumbnails.querySelectorAll("img").forEach(function (img) {
                     img.dataset.selected = false;
                });
 
                e.target.dataset.selected = true;
-     });
-     
-     thumbnails.appendChild(thumb);
+          });
+
+          thumbnails.appendChild(thumb);
      });
 }
 
@@ -171,12 +171,12 @@ function populateProducts(productList) {
      let productsSection = document.querySelector(".products-area");
      // Run a loop through the product and create an HTML element 
      // ("product-item") for each of them. 
-     
+
      // We need to clear out the queue empty first do when we click on paid section 
      // we can only populate paid insted of x2_Products.
-     productsSection.textContent = ""; 
+     productsSection.textContent = "";
 
-     productList.forEach(function(product, index) {
+     productList.forEach(function (product, index) {
           // Create the HTMl element for the individual product.
           let productElm = document.createElement("div");
           productElm.classList.add("product-item");
@@ -190,13 +190,13 @@ function populateProducts(productList) {
           let productDetails = document.createElement("div");
           productDetails.classList.add("product-details");
 
-          let productTitle = document.createElement("h3");                    
+          let productTitle = document.createElement("h3");
           productTitle.classList.add("product-title");
           productTitle.textContent = product.title;
 
           let productAuthor = document.createElement("p");
           productAuthor.classList.add("product-author");
-          productAuthor.textContent = product.author; 
+          productAuthor.textContent = product.author;
 
           let priceTitle = document.createElement("p");
           priceTitle.classList.add("price-title");
@@ -209,29 +209,29 @@ function populateProducts(productList) {
 
           // Add "ALL" child HTML of the "Product". 
           productElm.append(productImage);
-          productElm.append(productDetails);          
+          productElm.append(productDetails);
 
           // Add "ALL" child HTML of the "ProductDetails". 
           productDetails.append(productTitle);
           productDetails.append(productAuthor);
           productDetails.append(priceTitle);
-          productDetails.append(productPrice);          
-          
+          productDetails.append(productPrice);
+
           // Add complete individual product to product section. 
           productsSection.append(productElm);
 
-      });
+     });
 }
 
-function productHandler() { 
+function productHandler() {
      // Variables
-     
-     let freeProducts = products.filter(function(item){
+
+     let freeProducts = products.filter(function (item) {
           // return item.price <= 0 || item.price == undefined;
           return !item.price || item.price <= 0;
 
      });
-     let paidProducts = products.filter(function(item){
+     let paidProducts = products.filter(function (item) {
           return item.price > 0;
      });
 
@@ -242,7 +242,7 @@ function productHandler() {
      document.querySelector(".products-filter label[for=free] span.product-amount").textContent = freeProducts.length;
 
      let productFilter = document.querySelector(".products-filter");
-     productFilter.addEventListener("click", function(e){
+     productFilter.addEventListener("click", function (e) {
 
           if (e.target.id === 'all') {
                populateProducts(products);
@@ -251,18 +251,24 @@ function productHandler() {
           } else if (e.target.id === 'free') {
                populateProducts(freeProducts);
           }
-          
-     });
-     
 
-}          
+     });
+
+
+}
 
 // ********************************************** // 
 
 
+function footerHandler() {
+     let currentYear = new Date().getFullYear();
+     document.querySelector("footer").textContent = `© ${currentYear} - All rights reserved | abhithombare45`;
+}
+
 // PageLoad
- menuHandler();
- greetingHandler();
- clockHandler();
- galleryHandler();
- productHandler();
+menuHandler();
+greetingHandler();
+clockHandler();
+galleryHandler();
+productHandler();
+footerHandler();
