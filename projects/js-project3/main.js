@@ -259,11 +259,12 @@ function productHandler() {
 
 // ********************************************** // 
 
-
 function footerHandler() {
      let currentYear = new Date().getFullYear();
      document.querySelector("footer").textContent = `© ${currentYear} - All rights reserved | abhithombare45`;
 }
+
+// ********************************************** // 
 
 // PageLoad
 menuHandler();
