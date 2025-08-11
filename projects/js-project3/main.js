@@ -1,3 +1,5 @@
+const weatherAPIKey = "6fe91597d52b561bc76252ad1716e5d9";
+const weatherAPIURL = `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}&units=metric`;
 
 // const and veriable declaration 
 const galleryImages = [
@@ -96,27 +98,59 @@ function greetingHandler() {
      }
 
      // const greetingText = "Good Evening!";
-     const weatherCondition = "cludy";
-     const userLocation = "Pune";
-     let temperature = 25;
-
-     let celsiusText = `The weather is ${weatherCondition} in ${userLocation} and it's ${temperature.toFixed(1)}°C outside.`
-     let fahrText = `The weather is ${weatherCondition} in ${userLocation} and it's ${celsiusToFahr(temperature).toFixed(1)}°F outside.`
-
+     // const weatherCondition = "cludy";
+     // const userLocation = "Pune";
+     // let temperature = 25;
      document.querySelector("#greeting").innerHTML = greetingText;
 
-     // Radio Button: 
-     document.querySelector(".weather-group").addEventListener("click", function (e) {
-          if (e.target.id == "celsius") {
-               document.querySelector("p#weather").innerHTML = celsiusText;
-          } else if (e.target.id == "fahr") {
-               document.querySelector("p#weather").innerHTML = fahrText;
-          }
 
-     });
 }
 
 // ********************************************** // 
+// weatherHandler()
+function weatherHandler() {
+     navigator.geolocation.getCurrentPosition(position => {
+          // console.log(position);
+          let latitude = position.coords.latitude;
+          let longitude = position.coords.longitude;
+          // console.log(latitude);
+          // console.log(longitude);
+          let url = weatherAPIURL
+               .replace("{lat}", latitude)
+               .replace("{lon}", longitude)
+               .replace("{API key}", weatherAPIKey);
+          // console.log(url);
+
+          fetch(url)
+               .then(response => response.json())
+               .then(data => {
+                    // console.log(data);
+                    const condition = data.weather[0].description;
+                    const location = data.name;
+                    let temperature = data.main.temp;
+
+                    let celsiusText = `The weather is ${condition} in ${location} and it's ${temperature.toFixed(1)}°C outside.`;
+                    let fahrText = `The weather is ${condition} in ${location} and it's ${celsiusToFahr(temperature).toFixed(1)}°F outside.`;
+
+
+                    document.querySelector("p#weather").innerHTML = celsiusText;
+
+                    // Radio Button:  Temperature Switch
+                    document.querySelector(".weather-group").addEventListener("click", function (e) {
+                         if (e.target.id == "celsius") {
+                              document.querySelector("p#weather").innerHTML = celsiusText;
+                         } else if (e.target.id == "fahr") {
+                              document.querySelector("p#weather").innerHTML = fahrText;
+                         }
+
+                    });
+               }).catch((err => {
+                    document.querySelector("p#weather").innerHTML = "Unable to get weather info, Please try Again later!";
+               }));
+
+     });
+
+}
 
 // LocaTime Section
 function clockHandler() {
@@ -226,14 +260,8 @@ function populateProducts(productList) {
 function productHandler() {
      // Variables
 
-     let freeProducts = products.filter(function (item) {
-          // return item.price <= 0 || item.price == undefined;
-          return !item.price || item.price <= 0;
-
-     });
-     let paidProducts = products.filter(function (item) {
-          return item.price > 0;
-     });
+     let freeProducts = products.filter(item => !item.price || item.price <= 0);  // item.price <= 0 || item.price == undefined;
+     let paidProducts = products.filter(item => item.price > 0);
 
      populateProducts(products);
 
@@ -266,9 +294,11 @@ function footerHandler() {
 
 // ********************************************** // 
 
+
 // PageLoad
 menuHandler();
 greetingHandler();
+weatherHandler();
 clockHandler();
 galleryHandler();
 productHandler();
