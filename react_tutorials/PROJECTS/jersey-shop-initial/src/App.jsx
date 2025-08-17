@@ -94,7 +94,7 @@ function App() {
                 <h4>{shopName}</h4>
 
                 { items.map(item => 
-                    <div className="product">
+                    <div key={item.id} className="product">
                         <div className="photo">
                             <img src={"./img/" + item.photo} />
                         </div>
