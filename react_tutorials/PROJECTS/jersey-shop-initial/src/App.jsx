@@ -12,7 +12,7 @@ function App() {
             price: 119.99,
             active: false,
             quantity: 1, 
-            isInBag: true
+            isInBag: false
         },
         {
 
@@ -22,7 +22,7 @@ function App() {
             price: 99.99,
             active: false,
             quantity: 1, 
-            isInBag: false
+            isInBag: true
         },
         {
             id: 3, 
@@ -120,7 +120,7 @@ function App() {
             </section>
 
 
-            <OrderDetails  />
+            {itemsInBag && <OrderDetails  />}
 
         </>
     );
