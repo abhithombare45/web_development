@@ -22,7 +22,7 @@ function App() {
             price: 99.99,
             active: false,
             quantity: 1, 
-            isInBag: true
+            isInBag: false
         },
         {
             id: 3, 
@@ -120,7 +120,7 @@ function App() {
             </section>
 
 
-            {itemsInBag && <OrderDetails  />}
+            {itemsInBag.length > 0 && <OrderDetails  />}
 
         </>
     );
