@@ -1,6 +1,6 @@
+import { createLogger } from 'vite';
 import './App.css';
 import OrderDetails from './components/OrderDetails';
-// import OrderDetails from './components/OrderDetails';
 
 function App() {
 
@@ -88,6 +88,10 @@ function App() {
         }
     ];
 
+    const itemsInBag = items.filter(item => item.isInBag);
+    console.log(itemsInBag);
+
+
     const shopName = "Jersey Shop Made with React JS";
 
     return ( 
@@ -115,8 +119,9 @@ function App() {
                 )}
             </section>
 
-            {/* <OrderDetails  /> */}
-            <OrderDetails />
+
+            <OrderDetails  />
+
         </>
     );
 }
