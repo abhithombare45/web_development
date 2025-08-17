@@ -3,8 +3,7 @@ import './App.css';
 function App() {
 
     const items = [
-        {
-            
+        {             
             id: 1, 
             photo: "real_madrid.webp",
             name: "Real Madrid",
