@@ -352,6 +352,9 @@ footer div.footer-container p {
   font-size: 16px;
   font-weight: bold;
   color: #333;
+  border-bottom: 1px solid #eee;
+  /* subtle underline for separation */
+  padding-bottom: 5px;
 }
 
 .dropdown-column a {
