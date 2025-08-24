@@ -418,6 +418,22 @@ footer div.footer-container p {
   transition: color 0.3s ease, transform 0.2s ease;
 }
 
+.dropdown-column-ML a {
+  color: #00bcd4;
+  transform: translateX(5px);
+  /* subtle movement */
+  background-color: #6c63ff;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transform: translateX(5px);
+  /* subtle slide */
+}
+
+.dropdown a:hover {
+  background-color: yellow;
+}
+
 
 /* Responsive view: On small screens, 
   dropdown should stack vertically instead of 3 columns. */
