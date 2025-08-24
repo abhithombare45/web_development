@@ -27,11 +27,11 @@ header {
   width: 100%;
   /*Change to relative or static, UNLESS you want it always on top */
   /* position: relative; */
-  /* position: absolute; */
+  /* position: sticky; */
+  position: absolute;
   z-index: 3;
   background: transparent;
   background-color: transparent;
-  position: sticky;
   top: 0;
   /* background: rgba(255, 255, 255, 0.9); */
   /* backdrop-filter: blur(5px); */
