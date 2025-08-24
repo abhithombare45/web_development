@@ -370,6 +370,14 @@ footer div.footer-container p {
   /* subtle movement */
 }
 
+@media (max-width: 768px) {
+  .dropdown-content {
+    flex-direction: column;
+    min-width: 100%;
+  }
+}
+
+
 /* #################### */
 /* Project Detail Page */
 /* #################### */
