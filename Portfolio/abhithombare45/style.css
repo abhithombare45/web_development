@@ -330,7 +330,7 @@ footer div.footer-container p {
   display: none;
   position: absolute;
   top: 100%;
-  right: 0;
+  right: 50%;
   left: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.3);
@@ -338,7 +338,7 @@ footer div.footer-container p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px 40px;
   display: flex;
-  /* background-color: transparent; */
+  background-color: yellow;
   justify-content: space-between;
   opacity: 0;
   transform: translateY(20px);
