@@ -45,6 +45,8 @@ header {
 
 header section.logo {
   font-size: 26px;
+  color: purple;
+  font-style: none;
 }
 
 
