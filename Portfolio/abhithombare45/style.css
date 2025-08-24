@@ -50,6 +50,11 @@ header section.logo {
   /* to remove underline for header logo */
 }
 
+header section.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 header nav ul {
   list-style-type: none;
@@ -325,11 +330,12 @@ footer div.footer-container p {
   display: none;
   position: absolute;
   top: 100%;
+  right: 0;
   left: 0;
+  width: 100%;
   background: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  min-width: 800px;
   display: flex;
   /* background-color: transparent; */
   justify-content: space-between;
@@ -347,7 +353,7 @@ footer div.footer-container p {
 
 .dropdown-column {
   flex: 1;
-  margin: 0 15px;
+  margin: 0 5px;
 }
 
 .dropdown-column h3 {
@@ -373,6 +379,8 @@ footer div.footer-container p {
   /* subtle movement */
 }
 
+/* Responsive view: On small screens, 
+  dropdown should stack vertically instead of 3 columns. */
 @media (max-width: 768px) {
   .dropdown-content {
     flex-direction: column;
