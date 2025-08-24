@@ -345,7 +345,8 @@ footer div.footer-container p {
   z-index: 9999;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown>a:hover+.dropdown-content,
+.dropdown:hover>.dropdown-content:hover {
   display: flex;
   opacity: 1;
   transform: translateY(0);
