@@ -346,19 +346,12 @@ footer div.footer-container p {
   z-index: 9999;
 }
 
-/* .dropdown:hover .dropdown-content {
-  display: flex;
-  opacity: 1;
-  transform: translateY(0);
-} */
-
-/* add this instead */
-.dropdown>a:hover+.dropdown-content,
-.dropdown:hover>.dropdown-content:hover {
+.dropdown:hover .dropdown-content {
   display: flex;
   opacity: 1;
   transform: translateY(0);
 }
+
 
 .dropdown-column {
   flex: 1;
