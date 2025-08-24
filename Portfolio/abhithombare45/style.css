@@ -371,7 +371,7 @@ footer div.footer-container p {
 
 .dropdown-column-ML a {
   display: block;
-  padding: 5px 5px;
+  padding: 10px 15px;
   color: #333;
   transition: color 0.3s ease, transform 0.2s ease;
 }
