@@ -367,6 +367,7 @@ footer div.footer-container p {
   border-bottom: 1px solid #eee;
   /* subtle underline for separation */
   padding-bottom: 5px;
+  max-height: 20%;
 }
 
 .dropdown-column-ML a {
@@ -385,6 +386,7 @@ footer div.footer-container p {
   border-bottom: 1px solid #eee;
   /* subtle underline for separation */
   padding-bottom: 5px;
+  max-height: 20%;
 }
 
 .dropdown-column-NLP a {
