@@ -430,7 +430,7 @@ footer div.footer-container p {
   /* subtle slide */
 }
 
-.dropdown a:hover {
+.dropdown a #project-button:hover {
   background-color: yellow;
 }
 
