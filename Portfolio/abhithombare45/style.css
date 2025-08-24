@@ -368,6 +368,7 @@ footer div.footer-container p {
   /* subtle underline for separation */
   padding-bottom: 5px;
   height: 20%;
+  padding-right: 10px;
 }
 
 .dropdown-column-ML a {
@@ -387,6 +388,7 @@ footer div.footer-container p {
   /* subtle underline for separation */
   padding-bottom: 5px;
   height: 20%;
+  padding-right: 10px;
 }
 
 .dropdown-column-NLP a {
@@ -406,7 +408,6 @@ footer div.footer-container p {
   /* subtle underline for separation */
   padding-bottom: 5px;
   height: 20%;
-  padding-right: 10px;
 }
 
 .dropdown-column-LLM a {
