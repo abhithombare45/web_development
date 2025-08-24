@@ -358,11 +358,13 @@ footer div.footer-container p {
   display: block;
   padding: 5px 0;
   color: #333;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .dropdown-column a:hover {
   color: #4078c0;
+  transform: translateX(5px);
+  /* subtle movement */
 }
 
 /* #################### */
