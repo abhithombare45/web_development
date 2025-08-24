@@ -327,7 +327,7 @@ footer div.footer-container p {
 }
 
 .dropdown-content {
-  display: none;
+  display: flex;
   position: absolute;
   top: 100%;
   right: 0%;
@@ -338,7 +338,7 @@ footer div.footer-container p {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px 40px;
   display: flex;
-  background-color: yellow;
+  /* background-color: yellow; */
   justify-content: space-between;
   opacity: 0;
   transform: translateY(20px);
