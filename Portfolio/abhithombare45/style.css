@@ -333,7 +333,7 @@ footer div.footer-container p {
   right: 0;
   left: 0;
   width: 100%;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
