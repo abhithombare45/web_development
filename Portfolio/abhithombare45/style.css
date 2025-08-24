@@ -371,6 +371,23 @@ footer div.footer-container p {
 
 .dropdown-column-ML a {
   display: block;
+  padding: 5px 5px;
+  color: #333;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.dropdown-column-NLP h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  /* subtle underline for separation */
+  padding-bottom: 5px;
+}
+
+.dropdown-column-NLP a {
+  display: block;
   padding: 5px 0;
   color: #333;
   transition: color 0.3s ease, transform 0.2s ease;
