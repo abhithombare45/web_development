@@ -362,7 +362,7 @@ footer div.footer-container p {
 }
 
 .dropdown-column a:hover {
-  color: #272757;
+  color: #00bcd4;
   transform: translateX(5px);
   /* subtle movement */
 }
