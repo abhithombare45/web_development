@@ -27,7 +27,7 @@ header {
   width: 100%;
   /*Change to relative or static, UNLESS you want it always on top */
   /* position: relative; */
-  position: absolute;
+  /* position: absolute; */
   z-index: 3;
   background: transparent;
   background-color: transparent;
