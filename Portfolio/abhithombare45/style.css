@@ -47,6 +47,7 @@ header section.logo {
   font-size: 26px;
   color: purple;
   font-style: none;
+  /* to remove underline for header logo */
 }
 
 
