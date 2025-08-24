@@ -326,13 +326,13 @@ footer div.footer-container p {
   background: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  min-width: 600px;
+  min-width: 800px;
   display: flex;
   justify-content: space-between;
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s ease, transform 0.5s ease;
-  z-index: 999;
+  z-index: 9999;
 }
 
 .dropdown:hover .dropdown-content {
