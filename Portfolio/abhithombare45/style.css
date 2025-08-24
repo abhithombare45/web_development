@@ -355,7 +355,7 @@ footer div.footer-container p {
 
 .dropdown-column {
   flex: 1;
-  margin: 0 15px;
+  margin: 0 20px;
 }
 
 .dropdown-column h3 {
@@ -381,7 +381,8 @@ footer div.footer-container p {
   /* subtle movement */
   background-color: #6c63ff;
   border-radius: 4px;
-  padding-left: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
   transform: translateX(5px);
   /* subtle slide */
 }
