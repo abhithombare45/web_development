@@ -1,8 +1,9 @@
+html,
 body {
   margin: 0;
   font-family: "Roboto Mono", monospace;
   height: 100%;
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   /* font-family: "Roboto Mono" Helvetica, Arial, sans-serif; */
   /* font-family: "GFS Didot", serif; */
