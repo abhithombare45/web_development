@@ -380,6 +380,15 @@ footer div.footer-container p {
   transition: opacity 0.5s, transform 0.5s;
 }
 
+.dropdown ul {
+  list-style-type: none;
+}
+
+.dropdown ul li a {
+  display: inline-block;
+  background-color: yellow;
+}
+
 .dropdown a {
   color: blue;
   text-decoration: none;
