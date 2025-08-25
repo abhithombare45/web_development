@@ -321,11 +321,12 @@ footer div.footer-container p {
 .dropdown:hover {
   /* background-color: yellow; */
   /* display: flex; */
-  display: block;
-  /* position: absolute; */
-  position: relative;
+  /* display: block; */
+  display: none;
+  position: absolute;
+  /* position: relative; */
   top: 100%;
-  right: 0;
+  /* right: 0; */
   left: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.3);
