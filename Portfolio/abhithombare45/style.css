@@ -519,8 +519,8 @@ div.skill-card {
   font-size: 100px;
   color: #6c63ff;
   /* margin-bottom: 15px; */
-  padding: 80px 30px;
-  padding-bottom: 50px;
+  padding: 80px 31px;
+  padding-bottom: 40px;
   /* display: inline-flex; */
   /* align-items: center; */
 }
@@ -529,7 +529,7 @@ div.skill-card {
   margin: 10px 0;
   font-size: 22px;
   color: #333;
-  max-width: 12%;
+  max-width: 15%;
   text-align: center;
   padding-left: 0px;
 }
