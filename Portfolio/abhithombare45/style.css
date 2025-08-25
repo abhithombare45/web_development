@@ -473,6 +473,10 @@ footer div.footer-container p {
 /* #################### */
 /* Skills Page */
 /* #################### */
+body.skills-page-body header .header-container {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
 .skills-page {
   max-width: 1200px;
   margin: 120px auto 80px;
