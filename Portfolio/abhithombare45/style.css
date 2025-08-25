@@ -216,6 +216,11 @@ section.typed-text .txt-container {
   text-align: justify;
 }
 
+#info p a {
+  text-decoration: none;
+  color: #000;
+}
+
 #links {
   flex: 0 0 40%;
   /* Fixed 40% width */
