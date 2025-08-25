@@ -384,8 +384,12 @@ footer div.footer-container p {
   list-style-type: none;
 }
 
-.dropdown ul li a {
+.dropdown ul li {
+  margin: 0;
+  padding: 0;
   display: inline-block;
+  align-items: center;
+  justify-content: space-between;
   background-color: yellow;
 }
 
