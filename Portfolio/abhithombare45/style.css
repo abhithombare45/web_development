@@ -385,19 +385,14 @@ footer div.footer-container p {
   margin: 0;
 }
 
-header nav ul li {}
-
 header nav ul li:last-of-type {
   margin-right: 0;
 }
 
-.dropdown div div ul li {
+li.dropdown div div ul li {
   display: inline-block;
   margin-right: 26px;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   background-color: yellow;
 }
