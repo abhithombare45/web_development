@@ -59,7 +59,7 @@ header section.logo a {
 header nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 100px;
 }
 
 header nav ul li {
@@ -351,8 +351,8 @@ footer div.footer-container p {
   top: 100%;
   left: 0;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.95);
-  background: transparent;
-  background-color: transparent;
+  background: rgba(245, 245, 225, 0.3);
+  /* background-color: transparent; */
   border-radius: 6px;
   /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); */
   padding: 0px 0px;
