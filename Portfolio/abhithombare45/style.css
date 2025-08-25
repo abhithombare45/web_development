@@ -468,6 +468,7 @@ footer div.footer-container p {
 }
 
 .project-logo img {
+  padding-top: 50px;
   max-width: 320px;
   border-radius: 8px;
 }
@@ -577,12 +578,12 @@ div.skill-card {
   list-style-type: none;
 }
 
-.skill-card:hover {
+/* .skill-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-}
+} */
 
-.skill-card:hover .skill-info {
+/* .skill-card:hover .skill-info {
   display: block;
 
-}
+} */
