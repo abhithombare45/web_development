@@ -328,23 +328,7 @@ footer div.footer-container p {
 
 .dropdown-content {
   /* display: block; */
-  display: flex;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.3);
-  border-radius: 6px;
-  box-shadow: 0 40px 8px rgba(0, 0, 0, 0.1);
-  /* padding: 20px 40px; */
-  padding-left: 20px;
-  background-color: yellow;
-  justify-content: space-between;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-  z-index: 9999;
+
 }
 
 .dropdown:hover .dropdown-content {
@@ -433,6 +417,24 @@ footer div.footer-container p {
 
 .dropdown:hover {
   background-color: yellow;
+  /* display: flex; */
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  box-shadow: 0 40px 8px rgba(0, 0, 0, 0.1);
+  /* padding: 20px 40px; */
+  padding-left: 20px;
+  background-color: yellow;
+  justify-content: space-between;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  z-index: 9999;
 }
 
 
