@@ -59,7 +59,7 @@ header section.logo a {
 header nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 100px;
+  padding: 200px;
 }
 
 header nav ul li {
@@ -329,7 +329,7 @@ footer div.footer-container p {
   /* right: 0; */
   left: 0;
   /* width: 100%; */
-  background: rgba(255, 255, 255, 0.3);
+  /* background: rgba(255, 255, 255, 0.3); */
   border-radius: 6px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.95);
   /* padding: 20px 30px; */
