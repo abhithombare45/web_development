@@ -365,6 +365,9 @@ footer div.footer-container p {
 
 .dropdown a {
   color: blue;
+  /* color: #6c63ff; */
+  /* purple accent */
+  /* background-color: rgba(108, 99, 255, 0.1); */
   text-decoration: none;
   font-size: large;
   padding: 8px;
