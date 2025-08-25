@@ -350,10 +350,10 @@ footer div.footer-container p {
   position: absolute;
   top: 100%;
   left: 0;
-
-  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.95);
+  /* background: rgba(255, 255, 255, 0.95); */
   border-radius: 6px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); */
   padding: 20px 30px;
   gap: 40px;
   z-index: 9999;
