@@ -547,8 +547,11 @@ div.skill-card {
 .skill-info a {
   color: #6c63ff;
   text-decoration: none;
-  list-style-type: none;
   font-weight: 600;
+}
+
+.skill-info li {
+  list-style-type: none;
 }
 
 .skill-card:hover {
