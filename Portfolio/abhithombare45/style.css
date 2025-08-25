@@ -344,7 +344,7 @@ footer div.footer-container p {
   /* opacity: 0; */
   /* transform: translateY(10px); */
   /* transition: opacity 0.5s ease, transform 0.5s ease; */
-  z-index: 9999;
+  z-index: 999999;
 }
 
 .dropdown-content {
@@ -359,7 +359,7 @@ footer div.footer-container p {
   /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); */
   padding: 0px 0px;
   gap: 40px;
-  z-index: 9999;
+  z-index: 999999;
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.5s, transform 0.5s;
@@ -474,7 +474,7 @@ footer div.footer-container p {
 /* Skills Page */
 /* #################### */
 body.skills-page-body header {
-  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .skills-page {
@@ -512,14 +512,15 @@ div.skill-card {
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
-  min-height: 100px;
+  min-height: 200px;
 }
 
 .skill-card i {
   font-size: 100px;
   color: #6c63ff;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   padding: 80px 30px;
+  padding-bottom: 50px;
   /* display: inline-flex; */
   /* align-items: center; */
 }
@@ -528,7 +529,7 @@ div.skill-card {
   margin: 10px 0;
   font-size: 22px;
   color: #333;
-  max-width: 10%;
+  max-width: 12%;
   text-align: center;
   padding-left: 0px;
 }
