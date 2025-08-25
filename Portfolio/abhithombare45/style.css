@@ -119,6 +119,10 @@ div .hero-img {
   z-index: 1;
 }
 
+.hero-img {
+  height: 90vh;
+}
+
 .hero-img img {
   height: auto;
   display: block;
