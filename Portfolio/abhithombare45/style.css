@@ -515,6 +515,9 @@ div.skill-card {
   font-size: 100px;
   color: #6c63ff;
   margin-bottom: 15px;
+  padding: 80px 30px;
+  /* display: inline-flex; */
+  /* align-items: center; */
 }
 
 .skill-card h3 {
