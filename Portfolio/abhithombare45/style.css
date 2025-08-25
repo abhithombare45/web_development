@@ -578,12 +578,12 @@ div.skill-card {
   list-style-type: none;
 }
 
-/* .skill-card:hover {
+.skill-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-} */
+}
 
-/* .skill-card:hover .skill-info {
+.skill-card:hover .skill-info {
   display: block;
 
-} */
+}
