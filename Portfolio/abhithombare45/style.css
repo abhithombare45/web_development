@@ -353,10 +353,6 @@ footer div.footer-container p {
   display: inline-block;
 }
 
-.dropdown-content {
-  /* display: block; */
-
-}
 
 .dropdown:hover .dropdown-content {
   display: flex;
@@ -364,10 +360,10 @@ footer div.footer-container p {
   transform: translateY(0);
 }
 
-
+/* Columns */
 .dropdown-column {
   flex: 1;
-  margin: 0 20px;
+  margin: 0 150px;
 }
 
 
