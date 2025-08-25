@@ -494,8 +494,9 @@ footer div.footer-container p {
 }
 
 div.skill-card {
-  background-color: yellow;
+  /* background-color: yellow; */
   text-align: left;
+  padding-bottom: 50px;
 }
 
 /* Skill Card */
@@ -520,6 +521,7 @@ div.skill-card {
   color: #333;
   max-width: 10%;
   text-align: center;
+  padding-left: 0px;
 }
 
 /* Hover popup */
@@ -533,7 +535,7 @@ div.skill-card {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  width: 90%;
+  width: 80%;
   font-size: 14px;
   text-align: left;
   z-index: 10;
@@ -552,4 +554,5 @@ div.skill-card {
 
 .skill-card:hover .skill-info {
   display: block;
+
 }
