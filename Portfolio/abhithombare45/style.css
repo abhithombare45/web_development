@@ -543,6 +543,11 @@ div.skill-card {
   /* background-color: yellow; */
 }
 
+div.skill-info:hover {
+  align-items: right;
+  background-color: yellow;
+}
+
 .skill-info a {
   color: #6c63ff;
   text-decoration: none;
