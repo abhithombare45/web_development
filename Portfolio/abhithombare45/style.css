@@ -381,7 +381,7 @@ footer div.footer-container p {
 /* Columns */
 .dropdown-column {
   flex: 1;
-  margin: 0 5px;
+  margin: 0 25px;
 }
 
 /* Column headings (default) */
