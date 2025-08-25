@@ -59,7 +59,7 @@ header section.logo a {
 header nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 80px;
+  padding: 100px;
 }
 
 header nav ul li {
@@ -376,6 +376,8 @@ footer div.footer-container p {
   display: flex;
   opacity: 1;
   transform: translateY(0);
+  padding-right: 50px;
+  padding-bottom: 50px;
 }
 
 /* Columns style */
