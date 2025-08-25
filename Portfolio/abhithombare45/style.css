@@ -489,9 +489,13 @@ footer div.footer-container p {
 
 .skills-grid {
   display: column;
-  /* background-color: yellow; */
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
+}
+
+div.skill-card {
+  background-color: yellow;
+  text-align: left;
 }
 
 /* Skill Card */
@@ -505,7 +509,7 @@ footer div.footer-container p {
 }
 
 .skill-card i {
-  font-size: 40px;
+  font-size: 100px;
   color: #6c63ff;
   margin-bottom: 15px;
 }
@@ -514,6 +518,8 @@ footer div.footer-container p {
   margin: 10px 0;
   font-size: 22px;
   color: #333;
+  max-width: 10%;
+  text-align: center;
 }
 
 /* Hover popup */
