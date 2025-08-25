@@ -331,6 +331,7 @@ footer div.footer-container p {
 .dropdown {
   position: relative;
   display: inline-block;
+  z-index: 10000;
 }
 
 .dropdown:hover {
@@ -357,7 +358,7 @@ footer div.footer-container p {
   /* opacity: 0; */
   /* transform: translateY(10px); */
   /* transition: opacity 0.5s ease, transform 0.5s ease; */
-  z-index: 999999;
+  z-index: 9999;
 }
 
 .dropdown-content {
@@ -372,7 +373,7 @@ footer div.footer-container p {
   /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); */
   padding: 0px 0px;
   gap: 40px;
-  z-index: 999999;
+  z-index: 10001;
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.5s, transform 0.5s;
