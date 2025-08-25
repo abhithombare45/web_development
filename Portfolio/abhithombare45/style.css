@@ -416,7 +416,7 @@ footer div.footer-container p {
 }
 
 .dropdown:hover {
-  background-color: yellow;
+  /* background-color: yellow; */
   /* display: flex; */
   display: block;
   /* position: absolute; */
