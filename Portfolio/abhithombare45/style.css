@@ -380,22 +380,6 @@ footer div.footer-container p {
   transition: opacity 0.5s, transform 0.5s;
 }
 
-.dropdown ul {
-  list-style-type: none;
-  margin: 0;
-}
-
-header nav ul li:last-of-type {
-  margin-right: 0;
-}
-
-li.dropdown div div ul li {
-  display: inline-block;
-  margin-right: 26px;
-  /* align-items: center; */
-  justify-content: space-between;
-  background-color: yellow;
-}
 
 .dropdown a {
   color: blue;
@@ -508,6 +492,7 @@ li.dropdown div div ul li {
 /* #################### */
 body.skills-page-body header {
   background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
 }
 
 .skills-page {
@@ -529,6 +514,7 @@ body.skills-page-body header {
   display: column;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
+  padding-bottom: 50px;
 }
 
 div.skill-card {
