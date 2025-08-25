@@ -321,8 +321,8 @@ footer div.footer-container p {
 .dropdown:hover {
   /* background-color: yellow; */
   /* display: flex; */
-  /* display: block; */
-  display: none;
+  display: block;
+  /* display: none; */
   position: absolute;
   /* position: relative; */
   top: 100%;
@@ -333,7 +333,7 @@ footer div.footer-container p {
   border-radius: 6px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   padding: 20px 30px;
-  display: flex;
+  /* display: flex; */
   gap: 40px;
   /* padding-left: 20px; */
   background-color: yellow;
