@@ -324,7 +324,7 @@ footer div.footer-container p {
   /* display: block; */
   /* display: none; */
   /* position: absolute; */
-  position: relative;
+  /* position: relative; */
   top: 100%;
   /* right: 0; */
   left: 0;
@@ -338,9 +338,9 @@ footer div.footer-container p {
   /* padding-left: 20px; */
   background-color: yellow;
   justify-content: space-between;
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  /* opacity: 0; */
+  /* transform: translateY(10px); */
+  /* transition: opacity 0.5s ease, transform 0.5s ease; */
   z-index: 9999;
 }
 
