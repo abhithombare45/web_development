@@ -318,34 +318,33 @@ footer div.footer-container p {
   display: inline-block;
 }
 
-/* .dropdown:hover {
+.dropdown:hover {
   /* background-color: yellow; */
-/* display: flex; */
-display: block;
-/* display: none; */
-position: absolute;
-/* position: relative; */
-top: 100%;
-/* right: 0; */
-left: 0;
-/* width: 100%; */
-background: rgba(255, 255, 255, 0.3);
-border-radius: 6px;
-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-padding: 20px 30px;
-/* display: flex; */
-gap: 40px;
-/* padding-left: 20px; */
-background-color: yellow;
-justify-content: space-between;
-opacity: 0;
-transform: translateY(10px);
-transition: opacity 0.5s ease,
-transform 0.5s ease;
-z-index: 9999;
+  /* display: flex; */
+  /* display: block; */
+  /* display: none; */
+  /* position: absolute; */
+  position: relative;
+  top: 100%;
+  /* right: 0; */
+  left: 0;
+  /* width: 100%; */
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  padding: 20px 30px;
+  /* display: flex; */
+  gap: 40px;
+  /* padding-left: 20px; */
+  background-color: yellow;
+  justify-content: space-between;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  z-index: 9999;
 }
 
-*/ .dropdown-content {
+.dropdown-content {
   display: none;
   position: absolute;
   top: 100%;
