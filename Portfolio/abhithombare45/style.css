@@ -324,7 +324,7 @@ footer div.footer-container p {
   /* display: block; */
   /* display: none; */
   /* position: absolute; */
-  /* position: relative; */
+  position: relative;
   top: 100%;
   /* right: 0; */
   left: 0;
