@@ -430,9 +430,9 @@ footer div.footer-container p {
   /* subtle slide */
 }
 
-/* .dropdown a #project-button:hover {
-  background-color: yellow;
-} */
+.dropdown a #project-button:hover {
+  background-color: blue;
+}
 
 
 /* Responsive view: On small screens, 
