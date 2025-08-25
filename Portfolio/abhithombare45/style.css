@@ -488,7 +488,8 @@ footer div.footer-container p {
 }
 
 .skills-grid {
-  display: grid;
+  display: column;
+  /* background-color: yellow; */
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
 }
@@ -497,7 +498,7 @@ footer div.footer-container p {
 .skill-card {
   background: rgba(255, 255, 255, 0.85);
   border-radius: 10px;
-  padding: 40px;
+  padding: 30px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
