@@ -525,7 +525,7 @@ div.skill-card {
 }
 
 /* Hover popup */
-.skill-info {
+/* .skill-info {
   display: none;
   background: rgba(0, 0, 0, 0.85);
   color: beige;
@@ -540,7 +540,23 @@ div.skill-card {
   text-align: center;
   z-index: 10;
   height: 80%;
-  /* background-color: yellow; */
+  background-color: yellow;
+}*/
+
+.skill-info {
+  display: none;
+  background: rgba(0, 0, 0, 0.85);
+  color: beige;
+  border-radius: 8px;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  width: 350px;
+  font-size: 14px;
+  text-align: left;
+  z-index: 10;
 }
 
 div.skill-info:hover {
