@@ -344,6 +344,12 @@ footer div.footer-container p {
   z-index: 9999;
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
 
 .dropdown a {
   color: blue;
@@ -390,7 +396,6 @@ footer div.footer-container p {
 
 /* Links */
 .dropdown-content a {
-  display: block;
   padding: 6px 10px;
   color: #333;
   text-decoration: none;
