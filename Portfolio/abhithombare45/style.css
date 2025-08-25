@@ -330,13 +330,14 @@ footer div.footer-container p {
   display: block;
   position: absolute;
   top: 100%;
-  right: 0;
+  right: 100%;
   left: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.3);
   border-radius: 6px;
   box-shadow: 0 40px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px 40px;
+  /* padding: 20px 40px; */
+  padding-left: 20px;
   display: flex;
   background-color: yellow;
   justify-content: space-between;
