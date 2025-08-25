@@ -473,8 +473,8 @@ footer div.footer-container p {
 /* #################### */
 /* Skills Page */
 /* #################### */
-body.skills-page-body header .header-container {
-  background-color: rgba(0, 0, 0, 0.95);
+body.skills-page-body header {
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .skills-page {
@@ -512,7 +512,7 @@ div.skill-card {
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
-  min-height: 300px;
+  min-height: 100px;
 }
 
 .skill-card i {
