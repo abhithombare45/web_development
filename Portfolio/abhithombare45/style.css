@@ -401,7 +401,7 @@ footer div.footer-container p {
 .dropdown-column:hover h3 {
   /* color: #6c63ff; */
   /* purple accent */
-  background-color: rgba(8, 2, 121, 1);
+  background-color: rgb(0, 0, 0);
   color: beige;
   border-radius: 4px;
   padding-left: 6px;
