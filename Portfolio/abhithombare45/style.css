@@ -382,9 +382,18 @@ footer div.footer-container p {
 
 .dropdown ul {
   list-style-type: none;
+  margin: 0;
 }
 
-.dropdown ul li {
+header nav ul li {}
+
+header nav ul li:last-of-type {
+  margin-right: 0;
+}
+
+.dropdown div div ul li {
+  display: inline-block;
+  margin-right: 26px;
   margin: 0;
   padding: 0;
   display: inline-block;
