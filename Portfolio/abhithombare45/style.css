@@ -119,12 +119,18 @@ div .hero-img {
   z-index: 1;
 }
 
-.hero-img img {
-  height: 600px;
-  max-height: 600px;
+.hero-img {
+  height: 1000px;
+  max-height: 1000px;
   overflow: hidden;
+  position: relative;
+}
+
+.hero-img img {
   display: block;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   margin: 0;
   padding: 0;
 }
