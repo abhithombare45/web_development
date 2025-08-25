@@ -419,7 +419,7 @@ footer div.footer-container p {
   background-color: yellow;
   /* display: flex; */
   display: block;
-  position: absolute;
+  /* position: absolute; */
   top: 100%;
   right: 0;
   left: 0;
