@@ -588,7 +588,6 @@ div.skill-card {
   /* position: static; */
   width: 75%;
   /* width: clamp(200px, 60vw, 400px); */
-  /* height: auto; */
   min-height: 200px;
   margin-top: 1rem;
   overflow: auto;
