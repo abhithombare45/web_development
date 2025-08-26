@@ -536,8 +536,7 @@ div.skill-card {
 
 div.skill-card {
   gap: 50px;
-  /* padding-bottom: 50px; */
-  background-color: yellow;
+  margin-bottom: 50px;
 }
 
 .skill-card i {
