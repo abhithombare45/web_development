@@ -350,7 +350,8 @@ section.typed-text .txt-container {
   /* Fixed 60% width */
   /* max-width: 90%; */
   max-width: clamp(300px, 80%, 1000px);
-  margin: auto;
+  /* margin: auto; */
+  margin: 0;
   box-sizing: border-box;
   /* background-color: yellowgreen; */
 }
@@ -374,6 +375,7 @@ section.typed-text .txt-container {
   /* background-color: yellowgreen; */
   padding: 0;
   margin: 0;
+  /* margin-top: 50px; */
   flex-direction: column;
   align-items: center;
 }
