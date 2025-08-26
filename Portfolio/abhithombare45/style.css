@@ -103,8 +103,16 @@ header nav ul li a {
 
 .menu-area {
   position: fixed;
+  top: 0;
+  left: 0;
+  height: 20%;
+  width: 960px;
+  z-index: 999;
 
-  background-color: yellow;
+
+  background: transparent;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
+  /* background-color: yellow; */
 }
 
 
