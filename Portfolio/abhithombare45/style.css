@@ -536,6 +536,7 @@ div.skill-card {
 
 div.skill-card {
   gap: 50px;
+  /* padding-bottom: 50px; */
   background-color: yellow;
 }
 
@@ -574,8 +575,8 @@ div.skill-card {
   position: absolute;
   /* position: static; */
   width: 75%;
-  height: auto;
-  min-height: 250px;
+  /* height: auto; */
+  min-height: 200px;
   margin-top: 1rem;
   overflow: auto;
   /* background-color: yellow; */
