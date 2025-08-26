@@ -488,6 +488,12 @@ footer div.footer-container p {
   font-weight: 700;
 }
 
+.project-description {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
 .project-description p {
   margin-bottom: 15px;
   line-height: 1.6;
