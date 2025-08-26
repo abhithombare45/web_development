@@ -419,6 +419,7 @@ footer div.footer-container p {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.5s, transform 0.5s;
+  overflow: auto;
 }
 
 .dropdown a {
@@ -452,6 +453,7 @@ footer div.footer-container p {
   border-bottom: 1px solid #eee;
   padding-bottom: 5px;
   transition: color 0.3s ease, background-color 0.3s ease;
+  min-height: 50px;
 }
 
 /* Highlight heading ONLY when hovering the column */
@@ -680,7 +682,7 @@ div.skill-card {
 
 @media only screen and (max-width: 1440px) {
   body {
-    background-color: #000;
+    background-color: yellow;
   }
 }
 
@@ -690,7 +692,7 @@ div.skill-card {
 
 @media only screen and (max-width: 960px) {
   body {
-    background-color: yellow;
+    background-color: green;
   }
 }
 
