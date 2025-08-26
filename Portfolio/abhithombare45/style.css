@@ -401,12 +401,12 @@ footer div.footer-container p {
   /* transform: translateY(10px); */
   /* transition: opacity 0.5s ease, transform 0.5s ease; */
   z-index: 9999;
-  overflow-x: auto;
-  white-space: nowrap;
+  /* overflow-x: auto; */
+  /* white-space: nowrap; */
   /* prevent wrapping of child elements so scrollbar appears */
-  max-width: 600px;
+  /* max-width: 600px; */
   /* set max width as needed */
-  width: max-content;
+  /* width: max-content; */
   /* width based on content */
 }
 
@@ -426,6 +426,7 @@ footer div.footer-container p {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.5s, transform 0.5s;
+  overflow-x: auto;
 }
 
 .dropdown a {
