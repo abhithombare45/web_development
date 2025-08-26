@@ -615,32 +615,20 @@ div.skill-card {
 
 
 
-/* ########################### */
-/* For Larg Desktop */
-/* ########################### */
+/* ################################# */
+/* Styles For Smaller Desktop Screen */
+/* ################################# */
 
-@media only screen and (max-width: 1440px) {
-  body {
-    background-color: lightblue;
-  }
-}
+@media only screen and (max-width: 1440px) {}
 
-/* ########################### */
-/* For Larg Desktop */
-/* ########################### */
+/* ################################# */
+/* Styles For Tablet Screen */
+/* ################################# */
 
-@media only screen and (max-width: 960px) {
-  body {
-    background-color: green;
-  }
-}
+@media only screen and (max-width: 960px) {}
 
-/* ########################### */
-/* For Larg Desktop */
-/* ########################### */
+/* ################################# */
+/* Styles For Mobile Screen */
+/* ################################# */
 
-@media only screen and (max-width: 576px) {
-  body {
-    background-color: yellow;
-  }
-}
+@media only screen and (max-width: 576px) {}
