@@ -901,8 +901,8 @@ div.skill-card {
     margin: 10px 0;
   }
 
-  .dropdown .dropdown-content {
-    display: none !important;
+  .dropdown {
+    display: none;
   }
 
 
