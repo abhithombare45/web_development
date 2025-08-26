@@ -64,19 +64,23 @@ header section.logo a {
 header nav ul {
   list-style-type: none;
   margin: 0;
+  padding-right: 250px;
   /* padding: 300px; */
   /* adding space behind the contact link in header */
 }
 
-header nav ul:last-of-type {
-  padding-right: 250px;
-}
 
 
 header nav ul li {
   display: inline-block;
   margin-right: 26px;
 }
+
+
+header nav ul li:last-of-type {
+  padding-right: 200px;
+}
+
 
 header nav ul li.menu-icon {
   display: none;
