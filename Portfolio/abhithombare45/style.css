@@ -533,6 +533,7 @@ div.skill-card {
   position: relative;
   min-height: 250px;
   height: auto;
+  position: relative;
 }
 
 .skill-card i {
@@ -554,7 +555,6 @@ div.skill-card {
   padding-left: 0px;
 }
 
-/* Hover popup */
 .skill-info {
   background: rgba(0, 0, 0, 0.85);
   color: beige;
@@ -573,8 +573,8 @@ div.skill-card {
   height: auto;
   min-height: 250px;
   margin-top: 1rem;
-  display: flexbox;
-  /* display: block; */
+  /* display: flexbox; */
+  display: block;
   /* overflow: auto; */
   /* background-color: yellow; */
 }
