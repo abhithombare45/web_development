@@ -901,10 +901,25 @@ div.skill-card {
     left: 8%;
   }
 
-
-
   .desktop-view li:last-of-type {
     padding-right: 120px;
+  }
+
+
+  .about-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Keep them on the same line */
+    max-width: 1200px;
+    /* Optional max width for layout */
+    margin: 20px auto;
+    /* margin-top: 100px; */
+    padding: 0 15px;
+    font-size: 18px;
+    gap: 30px;
+    /* Space between columns */
+    height: 100%;
+    align-items: stretch;
   }
 
 
