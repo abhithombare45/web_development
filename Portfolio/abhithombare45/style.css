@@ -114,14 +114,15 @@ header nav ul li a {
 } */
 
 .menu-icon {
+  /* display: none; */
   position: relative;
   z-index: 1100;
   font-size: 30px;
   cursor: pointer;
   background: black;
   color: beige;
-  /* padding: 6px 15px; */
-  padding: 4px 10px 4px -10px;
+  padding: 6px 15px;
+  /* padding: 4px 10px 4px 0px; */
   border-radius: 8px;
 }
 
