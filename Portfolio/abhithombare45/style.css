@@ -810,7 +810,7 @@ div.skill-card {
 /* add for header | op */
 /* ################################# */
 
-@media only screen and (min-width: 960px) and (max-width: 1100px) {
+@media only screen and (min-width: 960px) and (max-width: 1150px) {
   body {
     background-color: red;
   }
