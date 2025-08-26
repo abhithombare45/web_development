@@ -110,7 +110,7 @@ header nav ul li a {
   z-index: 999;
 
   backdrop-filter: blur(10px);
-  background-color: white;
+  background-color: black;
   /* rgba(131, 220, 71, 0.031); */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
 
@@ -118,19 +118,21 @@ header nav ul li a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-
-  color: beige;
   margin: 10px;
 
 }
 
+.menu-area li a {
+  color: beige;
+}
 
 .menu-area li:first-child {
-  padding-top: 15px;
+  /* padding-top: 15px; */
 }
 
 
 .menu-area li {
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -140,6 +142,10 @@ header nav ul li a {
 
 .menu-area a {
   width: 100%;
+}
+
+.menu-area a:hover {
+  background-color: gray;
 }
 
 /* ############################## */
