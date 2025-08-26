@@ -879,6 +879,27 @@ div.skill-card {
     display: inline-block;
   }
 
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    top: 60px;
+    /* just below header */
+    right: 20px;
+    width: 200px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
 
   .dropdown {
     display: none;
