@@ -19,11 +19,15 @@ function toggleMenu() {
     menu.classList.toggle("active");
 
     // Change icon between ☰ and ✖
+
     if (menu.classList.contains("active")) {
-        icon.textContent = "✖";
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-xmark");
     } else {
-        icon.textContent = "☰";
+        icon.classList.remove("fa-xmark");
+        icon.classList.add("fa-bars");
     }
+
 }
 
 window.addEventListener("scroll", function () {

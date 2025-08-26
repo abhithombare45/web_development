@@ -114,6 +114,17 @@ header nav ul li a {
   z-index: 1000;
 }
 
+.menu-icon {
+  position: relative;
+  z-index: 1100;
+  font-size: 30px;
+  cursor: pointer;
+  background: black;
+  color: beige;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
 /* ########## Mobile Menu ########## */
 .menu-area {
   position: fixed;
