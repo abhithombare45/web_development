@@ -123,7 +123,8 @@ div .hero-img {
 
 .hero-img {
   height: 1000px;
-  max-height: 1000px;
+  height: 80vh;
+  /* max-height: 1000px; */
   overflow: hidden;
   position: relative;
 }
