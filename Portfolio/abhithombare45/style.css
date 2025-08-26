@@ -74,6 +74,10 @@ header nav ul li {
   margin-right: 26px;
 }
 
+header nav ul li.menu-icon {
+  display: none;
+}
+
 header nav ul li:last-of-type {
   margin-right: 0;
 }
@@ -863,6 +867,19 @@ div.skill-card {
     pointer-events: auto;
     /* make sure link works */
   }
+
+  header nav ul li {
+    display: none;
+  }
+
+  header nav ul li.menu-icon {
+    display: inline-block;
+  }
+
+
+
+
+
 }
 
 
