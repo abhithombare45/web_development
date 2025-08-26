@@ -151,9 +151,12 @@ div .hero-img {
   padding: 0;
 }
 
-div.img-typed h1#hello-txt {
+div.img-typed .typed-text h1#hello-txt {
   /* margin: 0;
   padding: 0; */
+  position: absolute;
+  top: -100px;
+  left: 8%;
   margin-bottom: 0;
   padding-bottom: 0;
   font-style: italic;
