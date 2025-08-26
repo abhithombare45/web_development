@@ -779,33 +779,23 @@ div.skill-card {
   }
 
   header nav ul {
-    /* list-style-type: none;
-    margin: 0; */
     padding-right: 300px;
   }
 
   section.typed-text h1 {
-    top: 0;
-    left: 0;
-    /* Font font-family: NOT WORKING; */
-    font-family: "GFS Didot", serif;
-    /* font-family: Roboto, Helvetica, Arial, sans-serif; */
-    height: auto;
-    font-weight: 900;
     font-size: 55px;
-    color: beige;
   }
 
   div.img-typed .typed-text h1#hello-txt {
-    position: absolute;
     top: -80px;
     left: 8%;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    font-style: italic;
-    color: beige;
-    /* background-color: yellow; */
   }
+
+
+
+
+
+
 
 }
 
@@ -820,7 +810,7 @@ div.skill-card {
   }
 
   header nav ul {
-    padding-right: 400px;
+    padding-right: 50px;
 
   }
 
