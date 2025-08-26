@@ -134,10 +134,6 @@ header nav ul li a {
   padding-left: 90%;
 }
 
-.menu-button {
-  display: none;
-}
-
 .menu-area li {
   height: 100%;
   width: 100%;
@@ -154,6 +150,11 @@ header nav ul li a {
 .menu-area a:hover {
   background-color: gray;
 }
+
+.menu-button {
+  display: none;
+}
+
 
 /* ############################## */
 /* IMG & typed */
@@ -936,6 +937,10 @@ div.skill-card {
 
   header nav ul li.menu-icon {
     display: inline-block;
+  }
+
+  .menu-button {
+    display: flex;
   }
 
   /* .menu-area {
