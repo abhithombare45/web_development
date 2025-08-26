@@ -126,7 +126,7 @@ header nav ul li a {
 
 /* }  */
 
-/* 
+
 .menu-area ul li a:first-of-type {
   color: blue;
 }
@@ -135,20 +135,20 @@ header nav ul li a {
   color: beige;
 }
 
-.menu-area li:first-child {
+/* .menu-area li:first-child {
   width: auto;
   padding-left: 0;
   margin-left: auto;
   margin-top: 30px;
-}
+} */
 
 .menu-area li {
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
   display: flex;
-  flex-direction: column;
-  margin: 3px;
-  padding-bottom: 10px;
+  /* flex-direction: column; */
+  /* margin: 3px; */
+  /* padding-bottom: 10px; */
 }
 
 .menu-area a {
@@ -156,17 +156,17 @@ header nav ul li a {
   width: 90%;
 }
 
-.menu-area a:hover {
+/* .menu-area a:hover {
   backdrop-filter: blur(10px);
   background-color: rgba(0, 0, 0, 0.06);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
-}
+} */
 
-.menu-button {
+/* .menu-button {
   display: none;
-}
+} */
 
- */
+
 
 
 
