@@ -151,10 +151,14 @@ div .hero-img {
   padding: 0;
 }
 
-section.typed-text span-hello {
-  margin: 0;
-  padding: 0;
-  background-color: yellow;
+div.img-typed h1#hello-txt {
+  /* margin: 0;
+  padding: 0; */
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-style: italic;
+  color: beige;
+  /* background-color: yellow; */
 }
 
 section.typed-text h1 {
@@ -162,6 +166,8 @@ section.typed-text h1 {
   left: 0;
   /* Font font-family: NOT WORKING; */
   font-family: "GFS Didot", serif;
+  font-style: italic;
+
   /* font-family: Roboto, Helvetica, Arial, sans-serif; */
   height: auto;
   font-weight: 900;
