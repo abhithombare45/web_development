@@ -448,7 +448,20 @@ footer div.footer-container p {
 /* Columns style */
 .dropdown-column {
   flex: 1;
-  margin: 0 50px;
+  /* margin: 0 50px; */
+  /* margin: 0px; */
+}
+
+.dropdown-column:first-of-type {
+  /* flex: 1; */
+  /* margin: 0 50px; */
+  margin-left: 10px;
+}
+
+.dropdown-column:last-of-type {
+  /* flex: 1; */
+  /* margin: 0 50px; */
+  margin-right: 10px;
 }
 
 /* Column headings (default) */
