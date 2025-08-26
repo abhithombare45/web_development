@@ -3,19 +3,13 @@ console.log("Portfolio loaded successfully!");
 
 function showMenu() {
     const menuArea = document.querySelector(".menu-area");
-    menuArea.style.display = flex;
+    menuArea.style.display = "flex";
 }
 
 function hideMenu() {
     const menuArea = document.querySelector(".menu-area");
-    menuArea.style.display = none;
+    menuArea.style.display = "none";
 }
-
-function toggleMenu() {
-    const navLinks = document.querySelector('.nav-links');
-    navLinks.classList.toggle('show');
-}
-
 
 
 window.addEventListener("scroll", function () {
