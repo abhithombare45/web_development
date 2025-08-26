@@ -154,7 +154,7 @@ header nav ul li a {
   font-size: 18px;
   padding: 6px 12px;
   transition: background 0.3s ease;
-  display: flexbox;
+  display: ;
 }
 
 .menu-area li a:hover {
@@ -973,17 +973,21 @@ div.skill-card {
     display: inline-block;
   }
 
-  nav ul {
+  /* nav ul {
     display: none;
     /* hide normal nav list */
-  }
+}
 
-  .menu-area {
-    display: flex;
-  }
+*/ .menu-area {
+  display: flex;
+}
 
+/* nav>ul:not(.menu-area) {
+  display: none;
+  /* hide the desktop nav ul */
+}
 
-
+*/
 }
 
 
