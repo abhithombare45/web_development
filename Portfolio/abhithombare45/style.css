@@ -811,7 +811,18 @@ div.skill-card {
 
   header nav ul {
     padding-right: 50px;
+  }
 
+  .dropdown {
+    display: inline-block;
+  }
+
+  .dropdown:hover {
+    display: none;
+  }
+
+  .dropdown-content {
+    display: none;
   }
 
 
