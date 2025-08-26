@@ -33,7 +33,7 @@ function toggleMenu() {
 window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
     if (window.scrollY > 50) {
-        header.style.background = "rgba(0, 0, 0, 0.5)";
+        header.style.background = "rgba(0, 0, 0, 0.1)";
         header.style.backdropFilter = "blur(6px)";
     } else {
         header.style.background = "transparent";
