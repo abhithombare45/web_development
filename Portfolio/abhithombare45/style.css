@@ -530,7 +530,6 @@ div.skill-card {
   padding: 30px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  position: relative;
   min-height: 250px;
   height: auto;
   position: relative;
@@ -567,8 +566,8 @@ div.skill-card {
   text-align: center;
   z-index: 10;
   height: 80%;
-  position: absolute;
-  /* position: static; */
+  /* position: absolute; */
+  position: static;
   width: 75%;
   height: auto;
   min-height: 250px;
