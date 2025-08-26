@@ -71,13 +71,13 @@ header nav ul {
 
 
 
-header nav ul li {
+.desktop-view li {
   display: inline-block;
   margin-right: 26px;
 }
 
 
-header nav ul li:last-of-type {
+.desktop-view li:last-of-type {
   padding-right: 200px;
 }
 
@@ -900,6 +900,9 @@ div.skill-card {
 
 
 
+  .desktop-view li:last-of-type {
+    padding-right: 120px;
+  }
 
 
 
@@ -907,7 +910,7 @@ div.skill-card {
 
 
 /* ################################# */
-/* add for header | op */
+/* add for header changes */
 /* ################################# */
 
 @media only screen and (min-width: 960px) and (max-width: 1150px) {
