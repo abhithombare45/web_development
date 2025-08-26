@@ -825,17 +825,12 @@ div.skill-card {
     display: none !important;
   }
 
-  /* .dropdown:hover {
-    display: none;
-  } */
+  .dropdown>a {
+    pointer-events: auto;
+    /* make sure link works */
+  }
 
-  /* .dropdown-content {
-    display: none;
-  } */
-
-  /* .dropdown:hover .dropdown-content {
-    display: none;
-  } */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
 
 
 }
@@ -850,6 +845,15 @@ div.skill-card {
 @media only screen and (max-width: 960px) {
   body {
     background-color: green;
+  }
+
+  .dropdown .dropdown-content {
+    display: none !important;
+  }
+
+  .dropdown>a {
+    pointer-events: auto;
+    /* make sure link works */
   }
 }
 
