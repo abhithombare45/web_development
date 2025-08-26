@@ -855,7 +855,7 @@ div.skill-card {
     background-color: green;
   }
 
-  .dropdown .dropdown-content {
+  /* .dropdown .dropdown-content {
     display: none !important;
   }
 
@@ -865,7 +865,10 @@ div.skill-card {
 
   .dropdown>a {
     pointer-events: auto;
-    /* make sure link works */
+  } */
+
+  header nav ul {
+    padding-right: 50px;
   }
 
   header nav ul li {
@@ -874,6 +877,11 @@ div.skill-card {
 
   header nav ul li.menu-icon {
     display: inline-block;
+  }
+
+
+  .dropdown {
+    display: none;
   }
 
 
