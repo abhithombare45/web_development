@@ -106,7 +106,7 @@ header nav ul li a {
   top: 0;
   left: 0;
   height: 10%;
-  width: 85%;
+  width: 90%;
   z-index: 999;
 
   display: flex;
@@ -117,8 +117,8 @@ header nav ul li a {
   color: beige;
   margin: 10px;
 
-
-  background-color: rgba(131, 220, 71, 0.3);
+  backdrop-filter: blur(10px);
+  background-color: rgba(131, 220, 71, 0.031);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
 }
 
