@@ -489,8 +489,9 @@ footer div.footer-container p {
 }
 
 .project-description {
-  width: 100%;
-  max-width: 1000px;
+  /* width: 100%; */
+  /* max-width: 1000px; */
+  width: clamp(280px, 100%, 1000px);
   margin: auto;
 }
 
@@ -586,6 +587,7 @@ div.skill-card {
   position: absolute;
   /* position: static; */
   width: 75%;
+  /* width: clamp(200px, 60vw, 400px); */
   /* height: auto; */
   min-height: 200px;
   margin-top: 1rem;
