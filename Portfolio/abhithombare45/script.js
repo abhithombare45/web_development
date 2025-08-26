@@ -1,6 +1,10 @@
 // Will add interactivity (navbar toggle, animations) later
 console.log("Portfolio loaded successfully!");
 
+function showMenu() {
+    const menuArea = document.querySelector(".menu-area");
+}
+
 function toggleMenu() {
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('show');
