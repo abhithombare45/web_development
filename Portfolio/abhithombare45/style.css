@@ -125,6 +125,11 @@ header nav ul li a {
 
 }
 
+
+.menu-area ul li a:first-of-type {
+  color: blue;
+}
+
 .menu-area li a {
   color: beige;
 }
@@ -148,7 +153,8 @@ header nav ul li a {
 }
 
 .menu-area a {
-  width: 100%;
+  height: 100%;
+  width: 90%;
 }
 
 .menu-area a:hover {
