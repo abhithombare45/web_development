@@ -966,6 +966,9 @@ div.skill-card {
     display: none;
   }
 
+  section.typed-text h1 {
+    font-size: 30px;
+  }
 
 
 
