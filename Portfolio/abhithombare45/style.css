@@ -1034,8 +1034,19 @@ div.skill-card {
 
   /* hide the desktop nav ul */
   /* nav>ul:not(.menu-area) {
-  display: none;
-} */
+    display: none;
+  } */
+
+
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  #info p {
+    margin-bottom: 800px;
+  }
 
 }
 
