@@ -569,7 +569,7 @@ div.skill-card {
   text-align: center;
   z-index: 10;
   height: 80%;
-  overflow: auto;
+  /* overflow: auto; */
   /* background-color: yellow; */
 }
 
