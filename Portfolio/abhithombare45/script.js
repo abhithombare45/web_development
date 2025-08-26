@@ -1,6 +1,12 @@
 // Will add interactivity (navbar toggle, animations) later
 console.log("Portfolio loaded successfully!");
 
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('show');
+}
+
+
 
 window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
