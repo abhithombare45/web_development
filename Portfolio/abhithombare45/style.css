@@ -4,7 +4,7 @@ body {
   font-family: "Roboto Mono", monospace;
   height: 50%;
   /* display: flex; */
-  flex-direction: column;
+  /* flex-direction: column; */
   /* font-family: "Roboto Mono" Helvetica, Arial, sans-serif; */
   /* font-family: "GFS Didot", serif; */
   /* padding-bottom: 60px; */
@@ -201,7 +201,6 @@ section.typed-text .txt-container {
 /* About Section */
 /* ############################## */
 
-
 .about-container {
   display: flex;
   flex-wrap: nowrap;
@@ -313,9 +312,18 @@ section.typed-text .txt-container {
 }
 
 
-/* #################### */
+
+
+
+
+
+
+
+
+/* ############################## */
 /* Footer */
-/* #################### */
+/* ############################## */
+
 footer {
   position: fixed;
   backdrop-filter: blur(5px);
@@ -347,9 +355,21 @@ footer div.footer-container p {
   /* background-color:  */
 }
 
-/* #################### */
+
+
+
+
+
+
+
+
+
+
+
+/* ############################## */
 /* Dropdown Projects Menu */
-/* #################### */
+/* ############################## */
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -400,7 +420,6 @@ footer div.footer-container p {
   transform: translateY(0);
   transition: opacity 0.5s, transform 0.5s;
 }
-
 
 .dropdown a {
   color: blue;
@@ -473,9 +492,19 @@ footer div.footer-container p {
 
 
 
-/* #################### */
+
+
+
+
+
+
+
+
+
+/* ############################## */
 /* Project Detail Page */
-/* #################### */
+/* ############################## */
+
 .project-main {
   max-width: 1000px;
   margin: 80px auto;
@@ -515,9 +544,20 @@ footer div.footer-container p {
   line-height: 1.6;
 }
 
-/* #################### */
+
+
+
+
+
+
+
+
+
+
+/* ############################## */
 /* Skills Page */
-/* #################### */
+/* ############################## */
+
 body.skills-page-body header {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -630,20 +670,36 @@ div.skill-card {
 
 
 
+
+
+
+
 /* ################################# */
 /* Styles For Smaller Desktop Screen */
 /* ################################# */
 
-@media only screen and (max-width: 1440px) {}
+@media only screen and (max-width: 1440px) {
+  body {
+    background-color: #000;
+  }
+}
 
 /* ################################# */
 /* Styles For Tablet Screen */
 /* ################################# */
 
-@media only screen and (max-width: 960px) {}
+@media only screen and (max-width: 960px) {
+  body {
+    background-color: yellow;
+  }
+}
 
 /* ################################# */
 /* Styles For Mobile Screen */
 /* ################################# */
 
-@media only screen and (max-width: 576px) {}
+@media only screen and (max-width: 576px) {
+  body {
+    background-color: blue;
+  }
+}
