@@ -330,6 +330,7 @@ section.typed-text .txt-container {
   max-width: 1200px;
   /* Optional max width for layout */
   margin: 20px auto;
+  /* margin-top: 100px; */
   padding: 0 15px;
   font-size: 18px;
   gap: 30px;
@@ -999,7 +1000,7 @@ div.skill-card {
   }
 
   section.typed-text h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   /* new code  */
@@ -1038,6 +1039,9 @@ div.skill-card {
     background-color: blue;
   }
 
+  section.typed-text h1 {
+    font-size: 30px;
+  }
 
   .menu-icon {
     display: inline-block;
