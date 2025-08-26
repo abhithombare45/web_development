@@ -119,8 +119,8 @@ header nav ul li a {
   /* hidden above screen */
   left: 50%;
   transform: translateX(-50%);
-  width: 90%;
-  height: 20%;
+  width: 80.5%;
+  height: 10%;
   /* adjust height of menu */
   background: black;
   color: beige;
@@ -128,7 +128,7 @@ header nav ul li a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 150px;
   list-style: none;
   opacity: 0;
   pointer-events: none;
@@ -144,6 +144,11 @@ header nav ul li a {
   /* slides down from header */
   opacity: 1;
   pointer-events: auto;
+}
+
+
+.menu-area li {
+  display: flex;
 }
 
 /* Menu items */
