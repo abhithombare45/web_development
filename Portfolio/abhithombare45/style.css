@@ -110,7 +110,7 @@ header nav ul li a {
   z-index: 999;
 
   backdrop-filter: blur(10px);
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.06);
   /* rgba(131, 220, 71, 0.031); */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
 
@@ -127,7 +127,7 @@ header nav ul li a {
 }
 
 .menu-area li:first-child {
-  /* padding-top: 15px; */
+  padding-left: 90%;
 }
 
 
