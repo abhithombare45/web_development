@@ -825,12 +825,16 @@ div.skill-card {
     display: none !important;
   }
 
+  .dropdown:hover {
+    box-shadow: none;
+  }
+
   .dropdown>a {
     pointer-events: auto;
     /* make sure link works */
   }
 
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
+
 
 
 }
@@ -849,6 +853,10 @@ div.skill-card {
 
   .dropdown .dropdown-content {
     display: none !important;
+  }
+
+  .dropdown:hover {
+    box-shadow: none;
   }
 
   .dropdown>a {
