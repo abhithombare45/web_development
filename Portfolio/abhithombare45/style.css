@@ -103,6 +103,7 @@ header nav ul li a {
 /* ########## Menu Button ########## */
 .menu-icon {
   display: none;
+  position: relative;
   /* hidden on desktop */
   font-size: 28px;
   cursor: pointer;
