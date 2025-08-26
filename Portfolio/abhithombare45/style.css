@@ -171,6 +171,98 @@ header nav ul li a {
 }
 
 
+
+
+
+
+/* ############################## */
+/* New Logic for Menu Button */
+/* ############################## */
+
+
+
+/* ########## Menu Button ########## */
+.menu-icon {
+  display: none;
+  /* hidden on desktop */
+  font-size: 28px;
+  cursor: pointer;
+  background: black;
+  color: beige;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+/* ########## Mobile Menu ########## */
+.menu-area {
+  position: fixed;
+  top: -25%;
+  /* hidden above screen */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 20%;
+  /* adjust height of menu */
+  background: black;
+  color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 6px;
+
+  transition: all 0.4s ease-in-out;
+  z-index: 1000;
+}
+
+/* Active state (visible) */
+.menu-area.active {
+  top: 60px;
+  /* slides down from header */
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Menu items */
+.menu-area li a {
+  color: beige;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 6px 12px;
+  transition: background 0.3s ease;
+}
+
+.menu-area li a:hover {
+  background: gray;
+  border-radius: 4px;
+}
+
+/* ########## Responsive ########## */
+@media only screen and (max-width: 960px) {
+  .menu-icon {
+    display: inline-block;
+  }
+
+  nav ul {
+    display: none;
+    /* hide normal nav list */
+  }
+
+  .menu-area {
+    display: flex;
+  }
+}
+
+
+
+
+
+
+
 /* ############################## */
 /* IMG & typed */
 /* ############################## */
