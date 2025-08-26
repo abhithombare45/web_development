@@ -797,6 +797,8 @@ div.skill-card {
 
 
 
+
+
 }
 
 
@@ -814,7 +816,7 @@ div.skill-card {
   }
 
   .dropdown {
-    display: inline-block;
+    display: flexbox;
   }
 
   .dropdown:hover {
@@ -822,6 +824,10 @@ div.skill-card {
   }
 
   .dropdown-content {
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-content {
     display: none;
   }
 
