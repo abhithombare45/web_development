@@ -796,6 +796,17 @@ div.skill-card {
     color: beige;
   }
 
+  div.img-typed .typed-text h1#hello-txt {
+    position: absolute;
+    top: -80px;
+    left: 8%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-style: italic;
+    color: beige;
+    /* background-color: yellow; */
+  }
+
 }
 
 /* ################################# */
