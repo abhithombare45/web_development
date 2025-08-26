@@ -100,82 +100,6 @@ header nav ul li a {
 /* ############################## */
 /* Menu Button | Mobile screen */
 /* ############################## */
-/*
-.menu-area {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 14%;
-  width: 90%;
-  z-index: 999;
-
-  backdrop-filter: blur(10px);
-  background-color: black;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
-
-  display: none;
-
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin: 10px;
-  margin-top: 30px; */
-/* display: flex;  */
-/* rgba(131, 220, 71, 0.031); */
-/* background-color: rgba(0, 0, 0, 0.06); */
-
-/* }  */
-
-
-.menu-area ul li a:first-of-type {
-  color: blue;
-}
-
-.menu-area li a {
-  color: beige;
-}
-
-/* .menu-area li:first-child {
-  width: auto;
-  padding-left: 0;
-  margin-left: auto;
-  margin-top: 30px;
-} */
-
-.menu-area li {
-  /* height: 100%;
-  width: 100%; */
-  display: flex;
-  /* flex-direction: column; */
-  /* margin: 3px; */
-  /* padding-bottom: 10px; */
-}
-
-.menu-area a {
-  padding-left: 10px;
-  width: 90%;
-}
-
-/* .menu-area a:hover {
-  backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.06);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
-} */
-
-/* .menu-button {
-  display: none;
-} */
-
-
-
-
-
-
-/* ############################## */
-/* New Logic for Menu Button */
-/* ############################## */
-
-
 
 /* ########## Menu Button ########## */
 .menu-icon {
@@ -230,6 +154,7 @@ header nav ul li a {
   font-size: 18px;
   padding: 6px 12px;
   transition: background 0.3s ease;
+  /* display: block; */
 }
 
 .menu-area li a:hover {
