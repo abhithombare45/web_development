@@ -151,6 +151,12 @@ div .hero-img {
   padding: 0;
 }
 
+section.typed-text span-hello {
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+}
+
 section.typed-text h1 {
   top: 0;
   left: 0;
