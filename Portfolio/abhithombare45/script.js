@@ -3,6 +3,12 @@ console.log("Portfolio loaded successfully!");
 
 function showMenu() {
     const menuArea = document.querySelector(".menu-area");
+    menuArea.style.display = flex;
+}
+
+function hideMenu() {
+    const menuArea = document.querySelector(".menu-area");
+    menuArea.style.display = none;
 }
 
 function toggleMenu() {
