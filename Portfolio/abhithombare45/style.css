@@ -101,7 +101,9 @@ header nav ul li a {
 /* Menu Button | Mobile screen */
 /* ############################## */
 
-.menu-button {
+.menu-area {
+  position: fixed;
+
   background-color: yellow;
 }
 
