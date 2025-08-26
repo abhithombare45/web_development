@@ -10,9 +10,12 @@ body {
   /* padding-bottom: 60px; */
 }
 
-/* #################### */
+
+
+/* ############################## */
 /* Header */
-/* #################### */
+/* ############################## */
+
 
 .header-container {
   max-width: 90%;
@@ -82,9 +85,17 @@ header nav ul li a {
 }
 
 
-/* #################### */
+
+
+
+
+
+
+
+/* ############################## */
 /* IMG & typed */
-/* #################### */
+/* ############################## */
+
 
 .img-typed {
   position: relative;
@@ -173,8 +184,6 @@ section.typed-text .txt-container {
   /* color: #fff; */
 }
 
-
-
 .typed-text .txt-container {
   /* background-color: rgba(0, 0, 0, 0.3); */
   /* padding: 20px 40px; */
@@ -183,9 +192,15 @@ section.typed-text .txt-container {
   /* display: inline-block; */
 }
 
-/* #################### */
-/* about */
-/* #################### */
+
+
+
+
+
+/* ############################## */
+/* About Section */
+/* ############################## */
+
 
 .about-container {
   display: flex;
