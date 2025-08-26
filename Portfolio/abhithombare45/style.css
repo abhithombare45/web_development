@@ -511,12 +511,10 @@ body.skills-page-body header {
 }
 
 .skills-grid {
-  display: grid;
+  display: column;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
   padding-bottom: 50px;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 div.skill-card {
@@ -532,9 +530,8 @@ div.skill-card {
   padding: 30px;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  min-height: 250px;
-  height: auto;
   position: relative;
+  min-height: 250px;
 }
 
 .skill-card i {
@@ -556,7 +553,9 @@ div.skill-card {
   padding-left: 0px;
 }
 
+/* Hover popup */
 .skill-info {
+  display: flexbox;
   background: rgba(0, 0, 0, 0.85);
   color: beige;
   border-radius: 8px;
@@ -568,15 +567,13 @@ div.skill-card {
   text-align: center;
   z-index: 10;
   height: 80%;
-  /* position: absolute; */
-  position: static;
+  position: absolute;
+  /* position: static; */
   width: 75%;
   height: auto;
   min-height: 250px;
   margin-top: 1rem;
-  /* display: flexbox; */
-  display: block;
-  /* overflow: auto; */
+  overflow: auto;
   /* background-color: yellow; */
 }
 
