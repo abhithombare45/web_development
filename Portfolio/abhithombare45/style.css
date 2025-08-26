@@ -815,15 +815,19 @@ div.skill-card {
     padding-right: 50px;
   }
 
-  .dropdown {
+  /* .dropdown {
     position: relative;
     display: inline-block;
     z-index: 10000;
+  } */
+
+  .dropdown .dropdown-content {
+    display: none !important;
   }
 
-  .dropdown:hover {
+  /* .dropdown:hover {
     display: none;
-  }
+  } */
 
   /* .dropdown-content {
     display: none;
