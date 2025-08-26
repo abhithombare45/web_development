@@ -114,7 +114,9 @@ header nav ul li a {
   /* rgba(131, 220, 71, 0.031); */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
 
-  display: flex;
+  /* display: flex; */
+  display: none;
+
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
@@ -132,6 +134,9 @@ header nav ul li a {
   padding-left: 90%;
 }
 
+.menu-button {
+  display: none;
+}
 
 .menu-area li {
   height: 100%;
@@ -933,27 +938,9 @@ div.skill-card {
     display: inline-block;
   }
 
-  .nav-links {
+  /* .menu-area {
     display: none;
-    flex-direction: column;
-    background: rgba(255, 255, 255, 0.95);
-    position: absolute;
-    top: 60px;
-    /* just below header */
-    right: 20px;
-    width: 200px;
-    border-radius: 6px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 10px;
-  }
-
-  .nav-links.show {
-    display: flex;
-  }
-
-  .nav-links li {
-    margin: 10px 0;
-  }
+  } */
 
   .dropdown {
     display: none;
