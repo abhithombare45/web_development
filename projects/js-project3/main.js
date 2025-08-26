@@ -1,6 +1,7 @@
 const weatherAPIKey = "6fe91597d52b561bc76252ad1716e5d9";
 const weatherAPIURL = `https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}&units=metric`;
 
+
 // const and veriable declaration 
 const galleryImages = [
      {
