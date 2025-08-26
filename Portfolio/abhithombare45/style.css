@@ -401,6 +401,13 @@ footer div.footer-container p {
   /* transform: translateY(10px); */
   /* transition: opacity 0.5s ease, transform 0.5s ease; */
   z-index: 9999;
+  overflow-x: auto;
+  white-space: nowrap;
+  /* prevent wrapping of child elements so scrollbar appears */
+  max-width: 600px;
+  /* set max width as needed */
+  width: max-content;
+  /* width based on content */
 }
 
 .dropdown-content {
@@ -419,7 +426,6 @@ footer div.footer-container p {
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.5s, transform 0.5s;
-  overflow: auto;
 }
 
 .dropdown a {
@@ -453,7 +459,7 @@ footer div.footer-container p {
   border-bottom: 1px solid #eee;
   padding-bottom: 5px;
   transition: color 0.3s ease, background-color 0.3s ease;
-  min-height: 50px;
+  min-height: 80px;
 }
 
 /* Highlight heading ONLY when hovering the column */
