@@ -329,7 +329,9 @@ section.typed-text .txt-container {
   /* Keep them on the same line */
   max-width: 1200px;
   /* Optional max width for layout */
+  /* margin: 20px 100px 30px 100px; */
   margin: 20px auto;
+  /* padding: 20px 100px 30px 100px; */
   /* margin-top: 100px; */
   padding: 0 15px;
   font-size: 18px;
@@ -906,13 +908,17 @@ div.skill-card {
   }
 
 
+
   .about-container {
     display: flex;
     flex-wrap: nowrap;
     /* Keep them on the same line */
-    max-width: 1200px;
+    /* max-width: 1200px; */
     /* Optional max width for layout */
+    /* margin: 20px 100px 30px 100px; */
     margin: 20px auto;
+    margin-left: 50px;
+    /* padding: 20px 100px 30px 100px; */
     /* margin-top: 100px; */
     padding: 0 15px;
     font-size: 18px;
@@ -921,6 +927,7 @@ div.skill-card {
     height: 100%;
     align-items: stretch;
   }
+
 
 
 
