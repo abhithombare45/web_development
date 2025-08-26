@@ -130,8 +130,12 @@ header nav ul li a {
 }
 
 .menu-area li:first-child {
+  width: auto;
+  padding-left: 0;
+  margin-left: auto;
   margin-top: 30px;
-  padding-left: 90%;
+  /* padding-left: 90%; */
+
 }
 
 .menu-area li {
