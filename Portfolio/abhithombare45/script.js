@@ -11,6 +11,20 @@ function hideMenu() {
     menuArea.style.display = "none";
 }
 
+function toggleMenu() {
+    const menu = document.querySelector(".menu-area");
+    const icon = document.querySelector(".menu-icon");
+
+    // Toggle active class
+    menu.classList.toggle("active");
+
+    // Change icon between ☰ and ✖
+    if (menu.classList.contains("active")) {
+        icon.textContent = "✖";
+    } else {
+        icon.textContent = "☰";
+    }
+}
 
 window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
