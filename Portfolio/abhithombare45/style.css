@@ -809,6 +809,28 @@ div.skill-card {
 
 }
 
+
+/* ################################# */
+/* add for header | op */
+/* ################################# */
+
+@media only screen and (min-width: 960px) and (max-width: 1100px) {
+  body {
+    background-color: red;
+  }
+
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 250px;
+  }
+
+
+}
+
+
+
+
 /* ################################# */
 /* Styles For Tablet Screen */
 /* ################################# */
@@ -818,6 +840,12 @@ div.skill-card {
     background-color: green;
   }
 }
+
+
+
+
+
+
 
 /* ################################# */
 /* Styles For Mobile Screen */
