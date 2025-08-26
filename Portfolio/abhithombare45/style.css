@@ -114,7 +114,7 @@ header nav ul li a {
 } */
 
 .menu-icon {
-  /* display: none; */
+  display: none;
   position: relative;
   z-index: 1100;
   font-size: 30px;
@@ -895,9 +895,6 @@ div.skill-card {
 
 
 
-
-
-
 }
 
 
@@ -919,6 +916,11 @@ div.skill-card {
     display: inline-block;
     z-index: 10000;
   } */
+
+
+  .menu-icon {
+    display: none;
+  }
 
   .dropdown .dropdown-content {
     display: none !important;
@@ -976,6 +978,7 @@ div.skill-card {
     display: flex;
   }
 
+
   /* .menu-area {
     display: none;
   } */
@@ -1023,4 +1026,10 @@ div.skill-card {
   body {
     background-color: blue;
   }
+
+
+  .menu-icon {
+    display: inline-block;
+  }
+
 }
