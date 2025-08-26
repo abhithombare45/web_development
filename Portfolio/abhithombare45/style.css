@@ -101,7 +101,8 @@ header nav ul li a {
 
 div .hero-img {
   width: 100%;
-  height: auto;
+  /* height: auto; */
+  height: clamp(400px, 90vh, 1000px);
   text-align: center;
   /* background-color: rgba(0, 0, 0, 0.5); */
   /* Centers content inside if needed */
@@ -122,8 +123,9 @@ div .hero-img {
 }
 
 .hero-img {
-  height: 1000px;
-  height: 80vh;
+  /* height: 1000px; */
+  /* height: 20vh; */
+  /* height: clamp(400px, 80vh, 1000px); */
   /* max-height: 1000px; */
   overflow: hidden;
   position: relative;
