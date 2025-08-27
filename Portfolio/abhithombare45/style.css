@@ -1120,9 +1120,7 @@ a#name:focus {
 /* ################################# */
 
 @media only screen and (max-width: 1440px) {
-  body {
-    background-color: yellow;
-  }
+
 
   header nav ul {
     padding-right: 300px;
@@ -1173,9 +1171,7 @@ a#name:focus {
 /* ################################# */
 
 @media only screen and (min-width: 960px) and (max-width: 1150px) {
-  body {
-    background-color: red;
-  }
+
 
   header nav ul {
     padding-right: 50px;
@@ -1243,6 +1239,11 @@ a#name:focus {
   }
 
 
+  /* BHPP  */
+  body.BHPP a#project-button {
+    display: none;
+  }
+
 }
 
 
@@ -1253,9 +1254,7 @@ a#name:focus {
 /* ################################# */
 
 @media only screen and (max-width: 960px) {
-  body {
-    background-color: green;
-  }
+
 
   /* .dropdown .dropdown-content {
     display: none !important;
@@ -1422,9 +1421,6 @@ a#name:focus {
 /* ################################# */
 
 @media only screen and (max-width: 576px) {
-  body {
-    background-color: blue;
-  }
 
   section.typed-text h1 {
     font-size: 30px;
