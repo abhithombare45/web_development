@@ -894,21 +894,23 @@ body.skills-page-body header {
 
 div.skill-card {
   /* background-color: yellow; */
-  text-align: left;
-  padding-bottom: 50px;
+  /* text-align: left; */
+  /* padding-bottom: 50px; */
 }
 
 /* Skill Card */
 .skill-card {
   background: rgba(255, 255, 255, 0.85);
   border-radius: 10px;
-  padding: 30px;
-  /* text-align: center; */
+  padding: 10px;
+  margin: 30px;
+  text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   min-height: 250px;
-  background-color: yellow;
-
+  /* background-color: yellow; */
+  width: 100%;
+  height: 100%;
 }
 
 div.skill-card {
