@@ -687,13 +687,29 @@ footer div.footer-container p {
 } */
 
 body.BHPP #project-button {
-  padding-right: 400px;
+  margin-left: -200px;
+
 }
 
 body.BHPP .header-container #project-button {
   /* padding-right: 400px; */
   width: 0;
 }
+
+body.BHPP .dropdown-content {
+  background: rgba(255, 255, 255, 0.2);
+  /* semi-transparent */
+  border-radius: 16px;
+  /* smooth corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* soft shadow */
+  backdrop-filter: blur(6px);
+  /* blur background */
+  -webkit-backdrop-filter: blur(6px);
+  /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
 
 body.BHPP .project-header {
   display: flex;
