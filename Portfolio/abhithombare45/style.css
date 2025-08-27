@@ -1053,11 +1053,17 @@ div.skill-card {
     padding-bottom: 80px;
   }
 
+
+  #drop-mail {
+    margin-top: 100px;
+  }
+
   div#drop-mail i {
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 10px;
     /* background-color: #000; */
   }
 
