@@ -1093,6 +1093,7 @@ body.skills-page-body header {
     padding-right: 300px;
   }
 
+
   section.typed-text h1 {
     font-size: 55px;
   }
@@ -1182,6 +1183,10 @@ body.skills-page-body header {
     display: inline-block;
   }
 
+  .menu-area {
+    width: 82%;
+  }
+
   .about-container {
     margin-left: 80px;
   }
@@ -1250,6 +1255,11 @@ body.skills-page-body header {
   /* new code  */
   .menu-icon {
     display: inline-block;
+  }
+
+
+  .menu-area {
+    width: 80%;
   }
 
   nav ul {
