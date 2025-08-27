@@ -887,9 +887,9 @@ div.skill-card {
 /* ################################# */
 
 @media only screen and (max-width: 1440px) {
-  /* body {
+  body {
     background-color: yellow;
-  } */
+  }
 
   header nav ul {
     padding-right: 300px;
@@ -923,9 +923,9 @@ div.skill-card {
 /* ################################# */
 
 @media only screen and (min-width: 960px) and (max-width: 1150px) {
-  /* body {
+  body {
     background-color: red;
-  } */
+  }
 
   header nav ul {
     padding-right: 50px;
@@ -973,9 +973,9 @@ div.skill-card {
 /* ################################# */
 
 @media only screen and (max-width: 960px) {
-  /* body {
+  body {
     background-color: green;
-  } */
+  }
 
   /* .dropdown .dropdown-content {
     display: none !important;
@@ -1006,17 +1006,6 @@ div.skill-card {
   }
 
 
-  /* .menu-area {
-    display: none;
-  } */
-
-  .dropdown {
-    display: none;
-  }
-
-  section.typed-text h1 {
-    font-size: 40px;
-  }
 
   /* new code  */
   .menu-icon {
@@ -1031,6 +1020,17 @@ div.skill-card {
   .menu-area {
     display: flex;
   }
+
+  section.typed-text h1 {
+    font-size: 40px;
+  }
+
+
+
+  .dropdown {
+    display: none;
+  }
+
 
   /* hide the desktop nav ul */
   /* nav>ul:not(.menu-area) {
@@ -1049,20 +1049,24 @@ div.skill-card {
     margin-bottom: 5px;
   }
 
+
+  .about-container {
+    padding-bottom: 400px;
+
+  }
+
   div #links {
     padding-bottom: 80px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.95);
     background: rgba(245, 245, 225, 0);
-    height: 70%;
-    /* padding-bottom: 500px; */
-
-
+    /* height: 90%; */
   }
 
 
   div#drop-mail i:first-of-type {
     padding-bottom: 20px;
   }
+
 
   div#drop-mail i {
     width: 100%;
