@@ -539,6 +539,7 @@ footer div.footer-container p {
   /* set max width as needed */
   /* width: max-content; */
   /* width based on content */
+  /* height: auto; */
 }
 
 .dropdown-content {
