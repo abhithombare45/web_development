@@ -1241,7 +1241,7 @@ a#name:focus {
   /* new code  */
   .menu-icon {
     display: inline-block;
-    need change here
+    /* need change here  */
   }
 
   .menu-area {
