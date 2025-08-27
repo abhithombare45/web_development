@@ -1274,5 +1274,16 @@ div.skill-card {
     margin-top: 15%;
   }
 
+  /* Skills */
+
+  /* .skill-info {
+    width: 60%;
+  } */
+
+  .skill-card {
+    display: flex;
+    flex-direction: column;
+  }
+
 
 }
