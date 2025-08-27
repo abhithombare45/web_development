@@ -902,7 +902,10 @@ div.skill-card {
     margin-left: 60px;
   }
 
-
+  .projects-list .project-row {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
 
 }
@@ -950,7 +953,10 @@ div.skill-card {
     margin-left: 80px;
   }
 
-
+  .projects-list .project-row {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
 
 }
@@ -1075,6 +1081,16 @@ div.skill-card {
     /* padding: 10px; */
     /* background-color: #000; */
   }
+
+
+  .projects-list .project-row {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* align-items: center; */
+  }
+
 
 }
 
