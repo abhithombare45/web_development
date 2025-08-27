@@ -1018,7 +1018,7 @@ div.skill-card {
   }
 
   .menu-area.active {
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     height: 100%;
   }
