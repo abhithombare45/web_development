@@ -1445,4 +1445,10 @@ body.skills-page-body header {
     /* slight zoom with bounce */
   }
 
+  /* BHPP */
+  body.BHPP header ul {
+    display: none;
+  }
+
+
 }
