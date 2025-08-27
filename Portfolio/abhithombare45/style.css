@@ -692,14 +692,15 @@ footer div.footer-container p {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  margin-bottom: 30px;
 }
 
 /* toggle logic end */
 
 
 
-.project-logo img {
-  padding-top: 50px;
+.project-icon img {
+  padding-top: 35px;
   max-width: 320px;
   border-radius: 8px;
 }
