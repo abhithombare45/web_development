@@ -957,10 +957,11 @@ body.skills-page-body header {
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
+  /* position: absolute; */
   min-height: 250px;
   /* background-color: yellow; */
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
 }
 
 .skill-card:hover {
@@ -983,7 +984,7 @@ body.skills-page-body header {
 }
 
 div.skill-card {
-  gap: 50px;
+  /* gap: 50px; */
   /* margin-bottom: 50px; */
 }
 
@@ -1018,10 +1019,11 @@ div.skill-card {
   font-size: 22px;
   text-align: center;
   z-index: 10;
-  height: 80%;
-  /* position: absolute; */
+  /* height: 80%; */
+  /* height: 100%; */
+  position: absolute;
   /* position: static; */
-  position: relative;
+  /* position: relative; */
   width: 75%;
   /* width: clamp(200px, 60vw, 400px); */
   min-height: 200px;
