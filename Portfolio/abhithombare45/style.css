@@ -1017,36 +1017,10 @@ div.skill-card {
     /* hide normal nav list */
   }
 
-  /* ########## Mobile Menu ########## */
-  .menu-area {
-    position: fixed;
-    top: -200px;
-    /* hide above screen */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    background: black;
-    color: beige;
-    list-style: none;
-    border-radius: 6px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.4s ease-in-out;
-    z-index: 999;
-  }
-
-  /* Active state (when toggled on) */
   .menu-area.active {
-    top: 70px;
-    /* just below header */
-    opacity: 1;
-    pointer-events: auto;
+    position: fixed;
+    display: flex;
+    height: 100%;
   }
 
   section.typed-text h1 {
