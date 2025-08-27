@@ -791,6 +791,7 @@ footer div.footer-container p {
 }
 
 .project-logo img {
+  padding-top: 100px;
   width: 120px;
   height: auto;
   border-radius: 10px;
