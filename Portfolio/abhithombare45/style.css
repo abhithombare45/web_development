@@ -1145,6 +1145,10 @@ body.skills-page-body header {
     padding-right: 50px;
   }
 
+  header nav ul.desktop-view {
+    display: none;
+  }
+
   /* .dropdown {
     position: relative;
     display: inline-block;
@@ -1172,10 +1176,11 @@ body.skills-page-body header {
   }
 
 
+
   /* new code  */
-  /* .menu-icon {
+  .menu-icon {
     display: inline-block;
-  } */
+  }
 
   .about-container {
     margin-left: 80px;
