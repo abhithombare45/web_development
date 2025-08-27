@@ -675,6 +675,10 @@ footer div.footer-container p {
 /* Individual Project Detail Page */
 /* ############################## */
 
+body.BHPP header ul {
+  padding-right: 350px;
+}
+
 .project-main {
   max-width: 1000px;
   margin: 80px auto;
@@ -900,9 +904,6 @@ body.skills-page-body header {
   /* background-color: #000; */
 }
 
-body.skills-page-body header nav ul {
-  padding-right: 250px;
-}
 
 .dropdown-skills-about {
   position: relative;
@@ -1202,6 +1203,13 @@ body.skills-page-body header nav ul {
   }
 
 
+  /* BHPP */
+  body.BHPP header ul {
+    display: none;
+  }
+
+
+
 }
 
 
@@ -1345,6 +1353,13 @@ body.skills-page-body header nav ul {
     width: 55%;
     margin-left: 50px;
   }
+
+  /* BHPP */
+  body.BHPP header ul {
+    display: none;
+  }
+
+
 
 
 
