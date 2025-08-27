@@ -936,7 +936,7 @@ body.skills-page-body header {
 .dropdown-skills-about:hover .dropdown-content .dropdown-column {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .dropdown-skills-about:hover .dropdown-content .dropdown-column a {
