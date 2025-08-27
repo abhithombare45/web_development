@@ -1290,8 +1290,13 @@ a#name:focus {
   /* new code  */
   .menu-icon {
     display: inline-block;
+    margin-top: 32px;
   }
 
+
+  main.project-main {
+    padding-top: 50px;
+  }
 
   .menu-area {
     width: 90%;
