@@ -1072,7 +1072,6 @@ div.skill-card {
 
   .menu-area.active {
     /* position: fixed; */
-    width: 90vh;
     display: flex;
     height: 10vh;
   }
@@ -1110,6 +1109,10 @@ div.skill-card {
 
   .menu-icon {
     display: inline-block;
+  }
+
+  .menu-area.active {
+    width: 37vh;
   }
 
 
