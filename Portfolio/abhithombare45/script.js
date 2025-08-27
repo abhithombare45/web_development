@@ -5,7 +5,7 @@ console.log("Portfolio loaded successfully!");
 
 function toggleMenu() {
     const menu = document.querySelector(".menu-area");
-    const icon = document.querySelector(".menu-icon");
+    // const icon = document.querySelector(".menu-icon");
 
     // Toggle active class
     menu.classList.toggle("active");
