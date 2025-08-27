@@ -913,11 +913,12 @@ body.skills-page-body header {
   /* Push it just below the Contact link */
   left: 0;
   background-color: beige;
-  color: blue;
+  /* color: blue; */
   z-index: 999999;
   /* Make sure it's above skill cards */
   padding: 15px;
   min-width: 220px;
+  align-items: center;
   /* So it doesn’t collapse */
 }
 
@@ -931,6 +932,7 @@ body.skills-page-body header {
 
 .dropdown-skills-about:hover .dropdown-content {
   display: block;
+  align-items: center;
   /* Show only on hover */
 }
 
@@ -940,12 +942,14 @@ body.skills-page-body header {
   align-items: center;
   /* width: 100%; */
   /* padding: 10px; */
-  background-color: yellow;
 }
 
 .dropdown-skills-about .dropdown-column a {
-
-  width: 100%;
+  /* background-color: yellow; */
+  align-items: center;
+  /* width: 100%;
+  padding-left: 50%; */
+  color: #0066cc;
 }
 
 .skills-page {
