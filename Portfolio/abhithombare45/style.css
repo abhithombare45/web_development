@@ -825,6 +825,45 @@ footer div.footer-container p {
 }
 
 
+
+
+
+/* ############################## */
+/* toggle logic for other class(NLP, LLM, TS) */
+/* ############################## */
+
+/* Hide by default */
+.project-row-NLP,
+.project-row-LLM,
+.project-row-TS {
+  display: none;
+}
+
+/* Active state */
+.project-row-NLP.active,
+.project-row-LLM.active,
+.project-row-TS.active {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+/* ############################## */
+/* toggle logic for other class(NLP, LLM, TS) */
+/* ############################## */
+
+
+
+
+
+
+
+
+
+
+
 /* ############################## */
 /* Skills Page */
 /* ############################## */

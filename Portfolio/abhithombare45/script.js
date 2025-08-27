@@ -38,6 +38,32 @@ document.querySelector(".ml-section").addEventListener("click", () => {
     }
 });
 
+// ✅ New NLP, LLM, TS Projects toggle logic
+document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll(".project-section");
+
+    sections.forEach(section => {
+        section.addEventListener("click", () => {
+            // Close all open rows
+            document.querySelectorAll("[class^='project-row-']").forEach(row => {
+                row.classList.remove("active");
+            });
+            document.querySelectorAll(".project-section").forEach(sec => {
+                sec.classList.remove("active");
+            });
+
+            // Open the clicked one
+            section.classList.add("active");
+            const sectionClass = section.classList.contains("ml-section") ? ".project-row-ML" :
+                section.classList.contains("nlp-section") ? ".project-row-NLP" :
+                    section.classList.contains("llm-section") ? ".project-row-LLM" :
+                        section.classList.contains("ts-section") ? ".project-row-TS" : null;
+            if (sectionClass) {
+                document.querySelectorAll(sectionClass).forEach(row => row.classList.add("active"));
+            }
+        });
+    });
+});
 
 
 window.addEventListener("scroll", function () {
