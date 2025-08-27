@@ -1,15 +1,7 @@
 // Will add interactivity (navbar toggle, animations) later
 console.log("Portfolio loaded successfully!");
 
-function showMenu() {
-    const menuArea = document.querySelector(".menu-area");
-    menuArea.style.display = "flex";
-}
 
-function hideMenu() {
-    const menuArea = document.querySelector(".menu-area");
-    menuArea.style.display = "none";
-}
 
 function toggleMenu() {
     const menu = document.querySelector(".menu-area");
@@ -29,6 +21,18 @@ function toggleMenu() {
     }
 
 }
+
+
+document.querySelectorAll(".project-section").forEach(section => {
+    section.addEventListener("click", () => {
+        let next = section.nextElementSibling;
+        while (next && next.classList.contains("project-row")) {
+            next.classList.toggle("active");
+            next = next.nextElementSibling;
+        }
+    });
+});
+
 
 window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
