@@ -682,9 +682,13 @@ footer div.footer-container p {
   font-family: "Roboto Mono", monospace;
 }
 
+body.BHPP .header-container ul.desktop-view {
+  padding-right: 400px;
+}
 
-body.BHPP .project-header {
-  background-color: #000;
+body.BHPP .header-container #project-button {
+  /* padding-right: 400px; */
+  width: 0;
 }
 
 body.BHPP .project-header {
