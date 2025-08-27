@@ -665,13 +665,11 @@ footer div.footer-container p {
 
 
 
-
-
-
 .project-logo img {
-  padding-top: 35px;
-  max-width: 320px;
-  border-radius: 8px;
+  padding-top: 50px;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
 }
 
 .project-title h1 {
@@ -794,12 +792,6 @@ footer div.footer-container p {
   /* subtle hover background */
 }
 
-.project-logo img {
-  padding-top: 100px;
-  width: 120px;
-  height: auto;
-  border-radius: 10px;
-}
 
 .project-icon img {
   width: 120px;
