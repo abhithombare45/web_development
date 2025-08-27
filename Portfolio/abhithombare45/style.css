@@ -686,10 +686,14 @@ footer div.footer-container p {
   padding-right: 400px;
 } */
 
-body.BHPP #project-button {
+/* body.BHPP #project-button {
   margin-left: -200px;
-
 }
+
+body.BHPP #project-button:hover {
+  margin-left: -200px;
+} */
+
 
 body.BHPP .header-container #project-button {
   /* padding-right: 400px; */
@@ -708,6 +712,7 @@ body.BHPP .dropdown-content {
   -webkit-backdrop-filter: blur(6px);
   /* Safari support */
   border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-left: -400px;
 }
 
 
