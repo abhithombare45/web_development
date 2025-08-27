@@ -71,15 +71,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // for icon animation in skills page
 // Skill card hover animations
-document.querySelectorAll(".skill-card").forEach(card => {
-    const icon = card.querySelector("i");
-    card.addEventListener("mouseenter", () => {
-        icon.classList.add("fa-bounce");   // add FA animation
+// Animate only the robot icon on hover
+const robotIcon = document.querySelector(".fa-robot");
+
+if (robotIcon) {
+    robotIcon.addEventListener("mouseenter", () => {
+        robotIcon.classList.add("fa-bounce");
     });
-    card.addEventListener("mouseleave", () => {
-        icon.classList.remove("fa-bounce"); // remove FA animation
+
+    robotIcon.addEventListener("mouseleave", () => {
+        robotIcon.classList.remove("fa-bounce");
     });
-});
+}
 
 window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
