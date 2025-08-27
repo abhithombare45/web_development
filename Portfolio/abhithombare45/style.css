@@ -898,6 +898,12 @@ body.skills-page-body header {
   position: fixed;
 }
 
+.dropdown-skills-about {
+  position: relative;
+  z-index: 200000;
+  /* higher than skill cards */
+}
+
 .dropdown-skills-about .dropdown-content {
   position: absolute;
   /* Take it out of the normal flow */
@@ -911,6 +917,7 @@ body.skills-page-body header {
   min-width: 220px;
   /* So it doesn’t collapse */
 }
+
 
 .dropdown-skills-about:hover .dropdown-content {
   display: block;
@@ -937,10 +944,12 @@ body.skills-page-body header {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
   padding-bottom: 50px;
+  /* overflow: visible; */
 }
 
+
 div.skill-card {
-  /* background-color: yellow; */
+  background-color: black;
   /* text-align: left; */
   /* padding-bottom: 50px; */
 }
