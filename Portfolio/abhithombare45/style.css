@@ -886,7 +886,7 @@ body.skills-page-body header {
 }
 
 .skills-grid {
-  display: column;
+  /* display: column; */
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
   padding-bottom: 50px;
@@ -1029,6 +1029,11 @@ div.skill-card {
     width: 65%;
   }
 
+  .skill-card {
+    width: 90%;
+  }
+
+
 }
 
 
@@ -1086,6 +1091,9 @@ div.skill-card {
     width: 60%;
   }
 
+  .skill-card {
+    width: 90%;
+  }
 
 
 }
@@ -1230,6 +1238,8 @@ div.skill-card {
   .skill-info {
     width: 50%;
   }
+
+
 
 
 
