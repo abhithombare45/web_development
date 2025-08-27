@@ -1360,5 +1360,13 @@ div.skill-card {
     font-size: 15px;
   }
 
+  .skill-card i {
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .skill-card:hover i {
+    transform: scale(1);
+    /* slight zoom with bounce */
+  }
 
 }
