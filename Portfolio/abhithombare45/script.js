@@ -68,6 +68,19 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
+// for icon animation in skills page
+// Skill card hover animations
+document.querySelectorAll(".skill-card").forEach(card => {
+    const icon = card.querySelector("i");
+    card.addEventListener("mouseenter", () => {
+        icon.classList.add("fa-bounce");   // add FA animation
+    });
+    card.addEventListener("mouseleave", () => {
+        icon.classList.remove("fa-bounce"); // remove FA animation
+    });
+});
+
 window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
     if (window.scrollY > 50) {
