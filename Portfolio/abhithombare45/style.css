@@ -691,6 +691,7 @@ footer div.footer-container p {
 .project-row-ML.active {
   display: flex;
   flex-direction: row;
+  gap: 20px;
 }
 
 /* toggle logic end */
