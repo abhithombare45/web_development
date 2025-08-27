@@ -1303,7 +1303,9 @@ div.skill-card {
   }
 
   .skill-card h3 {
-    padding: 10px;
+    /* padding: 10px; */
+    font-size: 20px;
+    align-items: center;
   }
 
   .skill-card .skill-info {
