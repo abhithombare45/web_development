@@ -1399,6 +1399,10 @@ a#name:focus {
 
 
 
+  /* BHPP   */
+  .header-container .desktop-view li.dropdown a#project-button {
+    display: none;
+  }
 
 }
 
