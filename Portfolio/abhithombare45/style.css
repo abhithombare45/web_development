@@ -949,6 +949,14 @@ body.skills-page-body header {
   box-shadow: none;
 }
 
+a#name {
+  text-decoration: none;
+  color: inherit;
+  /* padding-right: 10%; */
+  margin-right: 20%;
+  /* keeps the same color as surrounding text */
+}
+
 a#name,
 a#name:visited,
 a#name:hover,
