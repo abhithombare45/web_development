@@ -660,6 +660,17 @@ footer div.footer-container p {
   margin-bottom: 30px;
 }
 
+.project-row {
+  display: none;
+  /* hidden by default */
+}
+
+.project-row.active {
+  display: flex;
+  /* visible when toggled */
+  flex-direction: row;
+}
+
 .project-logo img {
   padding-top: 50px;
   max-width: 320px;
