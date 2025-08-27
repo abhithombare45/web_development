@@ -898,6 +898,25 @@ body.skills-page-body header {
   position: fixed;
 }
 
+.dropdown-skills-about .dropdown-content {
+  position: absolute;
+  /* Take it out of the normal flow */
+  top: 100%;
+  /* Push it just below the Contact link */
+  left: 0;
+  background-color: yellow;
+  z-index: 99999;
+  /* Make sure it's above skill cards */
+  padding: 15px;
+  min-width: 220px;
+  /* So it doesn’t collapse */
+}
+
+.dropdown-skills-about:hover .dropdown-content {
+  display: block;
+  /* Show only on hover */
+}
+
 .skills-page {
   max-width: 1200px;
   margin: 120px auto 80px;
