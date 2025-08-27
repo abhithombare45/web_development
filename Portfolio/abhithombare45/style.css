@@ -906,21 +906,6 @@ body.skills-page-body header {
   /* higher than skill cards */
 }
 
-.dropdown-skills-about .dropdown-content {
-  position: absolute;
-  /* Take it out of the normal flow */
-  top: 100%;
-  /* Push it just below the Contact link */
-  left: 0;
-  background-color: beige;
-  /* color: blue; */
-  z-index: 999999;
-  /* Make sure it's above skill cards */
-  padding: 15px;
-  min-width: 220px;
-  align-items: center;
-  /* So it doesn’t collapse */
-}
 
 .dropdown-skills-about a#project-button {
   background-color: #000;
@@ -929,10 +914,25 @@ body.skills-page-body header {
   color: beige;
 }
 
+.dropdown-skills-about .dropdown-content {
+  position: absolute;
+  /* Take it out of the normal flow */
+  top: 100%;
+  /* Push it just below the Contact link */
+  left: 0;
+  background-color: beige;
+  z-index: 999999;
+  /* Make sure it's above skill cards */
+  padding: 15px;
+  min-width: 220px;
+  /* So it doesn’t collapse */
+}
 
 .dropdown-skills-about:hover .dropdown-content {
   display: block;
-  align-items: center;
+  /* align-items: center; */
+  /* background-color: yellow; */
+
   /* Show only on hover */
 }
 
@@ -949,7 +949,7 @@ body.skills-page-body header {
   align-items: center;
   /* width: 100%;
   padding-left: 50%; */
-  color: #0066cc;
+  /* color: #0066cc; */
 }
 
 .skills-page {
@@ -1163,6 +1163,14 @@ body.skills-page-body header {
 
   .dropdown:hover {
     box-shadow: none;
+  }
+
+  .dropdown-skills-about:hover .dropdown-content {
+    display: none;
+    /* align-items: center; */
+    /* background-color: yellow; */
+
+    /* Show only on hover */
   }
 
   .dropdown>a {
