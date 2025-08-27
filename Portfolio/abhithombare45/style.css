@@ -1274,6 +1274,10 @@ a#name:focus {
     display: none;
   }
 
+
+  body.BHPP .header-container ul.desktop-view {
+    padding-right: 400px !important;
+  }
 }
 
 
