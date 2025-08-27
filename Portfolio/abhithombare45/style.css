@@ -682,7 +682,11 @@ footer div.footer-container p {
   font-family: "Roboto Mono", monospace;
 }
 
-body.BHPP .header-container ul.desktop-view {
+/* body.BHPP .header-container ul.desktop-view {
+  padding-right: 400px;
+} */
+
+body.BHPP #project-button {
   padding-right: 400px;
 }
 
@@ -1187,9 +1191,9 @@ a#name:focus {
   /* BHPP  */
 
 
-  body.BHPP .header-container ul.desktop-view {
+  /* body.BHPP .header-container ul.desktop-view {
     padding-right: 450px;
-  }
+  } */
 
 
 }
@@ -1275,9 +1279,11 @@ a#name:focus {
   }
 
 
-  body.BHPP .header-container ul.desktop-view {
+  /* body.BHPP .header-container ul.desktop-view {
     padding-right: 400px !important;
-  }
+  } */
+
+
 }
 
 
