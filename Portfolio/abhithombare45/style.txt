@@ -1,675 +1,3 @@
-may be at line 1244 in styles.css we need to change. 
-
-I need to know why in index.thnl (Home page) menu-icon appearing at correct page but in BHPP.html it not at same spot. althogh all other files/pages we have maintained same position for menu-icon. 
-
-check code. 
-
-
-1. index.html:
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-        content="Portfolio of Abhijeet Thombare - AI/ML Engineer with 6+ years in data field, specializing in Machine Learning, NLP, and LLM projects.">
-    <meta name="keywords" content="Abhijeet Thombare, AI Engineer, Machine Learning, NLP, LLM, Portfolio">
-    <meta name="author" content="abhithombare45">
-    <title>Abhijeet Thombare 45 | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <header>
-        <div class="header-container">
-
-            <section class="logo">
-                <a href="index.html"><strong>abhithombare45</strong></a>
-            </section>
-
-            <nav>
-                <ul class="desktop-view">
-                    <!-- <li><a href="#info">About</a></li> -->
-                    <li class="dropdown">
-                        <a href="projects.html" id="project-button" href="#" aria-haspopup="true"
-                            aria-expanded="false">Projects</a>
-                        <div class="dropdown-content">
-                            <!-- <div class="dropdown-column-ML"> -->
-                            <div class="dropdown-column">
-                                <h3>ML Projects</h3>
-                                <a href="projects/BHPP.html">House Price Prediction</a>
-                                <a href="projects/project2.html" target="_blank">House Price Prediction</a>
-                                <a href="projects/project3.html" target="_blank">House Price Prediction</a>
-                            </div>
-                            <!-- <div class="dropdown-column-NLP"> -->
-                            <div class="dropdown-column">
-                                <h3>NLP Projects</h3>
-                                <a href="projects/project4.html" target="_blank">House Price Prediction</a>
-                                <a href="projects/project5.html" target="_blank">House Price Prediction</a>
-                                <a href="projects/project6.html" target="_blank">House Price Prediction</a>
-                            </div>
-                            <!-- <div class="dropdown-column-LLM"> -->
-                            <div class="dropdown-column">
-                                <h3>Gen AI & LLM Projects</h3>
-                                <a href="projects/project7.html" target="_blank">House Price Prediction</a>
-                                <a href="projects/project8.html" target="_blank">House Price Prediction</a>
-                                <a href="projects/project9.html" target="_blank">House Price Prediction</a>
-                                <a href="projects/project10.html" target="_blank">House Price Prediction</a>
-                            </div>
-                            <div class="dropdown-column">
-                                <h3>Time Series Projects</h3>
-                                <a href="projects/project7.html" target="_blank">House Price Prediction</a>
-                                <a href="projects/project8.html" target="_blank">House Price Prediction</a>
-                                <a href="projects/project9.html" target="_blank">House Price Prediction</a>
-                                <a href="projects/project10.html" target="_blank">House Price Prediction</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <!-- <li><a href="#drop-mail">Contact</a></li> -->
-                    <!-- <li><i class="fa-solid fa-bars"></i></li> -->
-                    <!-- <li onclick=showMenu() class="menu-button"><a href="#"><i class="fa-solid fa-bars"></i></a></li> -->
-                </ul>
-
-                <!-- Menu Button -->
-                <div class="menu-icon" onclick="toggleMenu()">
-                    <i id="menu-toggle-icon" class="fa-solid fa-bars"></i>
-                </div>
-
-                <!-- Menu Area -->
-                <ul class="menu-area">
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                </ul>
-
-                <!-- <ul class="menu-area">
-                    <li onclick=hideMenu()><a href="#"> <i class="fa-solid fa-xmark"></i> </a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li class="socials">
-                        <p>Abhijeet Thombare</p>
-                        <div>
-                            <a href="https://github.com/abhithombare45" target="_blank" rel="noopener noreferrer"
-                                aria-label="GitHub Profile">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/abhithombre45/" target="_blank"
-                                rel="noopener noreferrer" aria-label="LinkedIn Profile">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                        </div>
-                    </li> 
-                </ul> -->
-
-
-            </nav>
-        </div>
-
-    </header>
-
-    <div class="img-typed">
-        <section class="hero-img">
-            <img src="assets/images/cover45.jpeg" alt="abhithombare45-hero-image" class="abhi">
-            <!-- <img src="assets/images/cover2.jpg" alt="abhithombare45-hero-image" class="abhi"> -->
-        </section>
-
-        <section class="typed-text">
-            <h1 id="hello-txt">Hello, I am </h1>
-            <div class="txt-container">
-
-                <h1> <span class="typed"></span></h1>
-            </div>
-        </section>
-
-    </div>
-
-    <div class="about-container">
-        <div id="info">
-            <h2>Hi there!</h2>
-            <p>My name is Abhijeet Thombare. I am currently working on data field since last 6+ years,
-                and I am passionate about AI, ML & robotics.
-                I am graduated from University of Pune.
-                And Pursuing BSc. Honours from <a
-                    href="https://www.coursera.org/degrees/bachelor-of-science-data-science-ai-iitguwahati/home"
-                    target="_blank">Data Science in Artificial Intelligence</a> from IIT Guwahati.
-
-            </p>
-        </div>
-
-        <div id="links">
-            <h2>Links</h2><br>
-            <div class="icon-row">
-                <ul>
-                    <li>
-                        <a href="https://github.com/abhithombare45" target="_blank" rel="noopener noreferrer"
-                            aria-label="GitHub Profile">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/abhithombre45/" target="_blank" rel="noopener noreferrer"
-                            aria-label="LinkedIn Profile">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.kaggle.com/abhithombare45" target="_blank" rel="noopener noreferrer"
-                            aria-label="Kaggle Profile">
-                            <i class="fa-solid fa-terminal"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div id="drop-mail">
-                <i class="fa-solid fa-envelope fa-lg"></i><a
-                    href="mailto:abhithombare45@gmail.com">abhithombare45@gmail.com</a>
-            </div>
-
-
-        </div>
-    </div>
-
-    <footer>
-        <div class="footer-container">
-            <p><i class="fa-regular fa-copyright"></i> Abhijeet Thombare 2025</p>
-        </div>
-    </footer>
-
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="script.js"></script>
-    <script>
-        var typed = new Typed(".typed", {
-            strings: ["Abhijeet Thombare", "an Engineer and Student of AI and ML", "a fitness enthusiasts, loves adventure and exploring the beauty of nature", "creazzzy about long drives and discovering hidden places"],
-            typeSpeed: 30,
-            backSpeed: 15,
-            loop: true
-        })
-    </script>
-</body>
-
-</html>
-
-
-2. skills.html: 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Skills of Abhijeet Thombare - AI/ML Engineer Portfolio">
-  <meta name="author" content="Abhijeet Thombare">
-  <title>Skills | Abhijeet Thombare</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-
-<body class="skills-page-body">
-  <header>
-    <div class="header-container">
-      <section class="logo">
-        <a href="index.html"><strong>abhithombare45</strong></a>
-      </section>
-      <nav>
-        <ul>
-          <!-- <li><a href="index.html#info">About</a></li> -->
-          <li class="dropdown-skills-about">
-            <a id="project-button" href="#" aria-haspopup="true" aria-expanded="false">Contact</a>
-            <div class="dropdown-content">
-              <!-- <div class="dropdown-column-ML"> -->
-              <div class="dropdown-column">
-                <h3><a id="name" href="./index.html">Abhijeet Thombare</a></h3>
-                <a href="mailto:abhithombare45@gmail.com">abhithombare45@gmail.com</a>
-                <a href="tel:+91 8208079173">dial-Phone</a>
-                <a href="https://github.com/abhithombare45" target="_blank" rel="noopener noreferrer"
-                  aria-label="GitHub Profile">
-                  <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/abhithombre45/" target="_blank" rel="noopener noreferrer"
-                  aria-label="LinkedIn Profile">
-                  <i class="fa-brands fa-linkedin"></i>
-                </a>
-              </div>
-            </div>
-          </li>
-          <!-- <li><a href="skills.html">Skills</a></li> -->
-          <!-- <li><a href="index.html#drop-mail">Contact</a></li> -->
-        </ul>
-
-        <!-- Menu Button -->
-        <div class="menu-icon" onclick="toggleMenu()">
-          <i id="menu-toggle-icon" class="fa-solid fa-bars"></i>
-        </div>
-
-        <!-- Menu Area -->
-        <ul class="menu-area">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-        </ul>
-
-      </nav>
-    </div>
-  </header>
-
-  <!-- Skills Page -->
-  <main class="skills-page">
-    <h1>My Skills</h1>
-
-    <!-- Skills Grid -->
-    <section class="skills-grid">
-
-      <!-- Machine Learning -->
-      <div class="skill-card">
-        <i class="fa-solid fa-robot"></i>
-        <h3>Machine Learning</h3>
-        <div class="skill-info">
-          <p>Regression, Classification, Clustering, Feature Engineering, Model Deployment.</p>
-          <ul>
-            <li>
-              <p><a href="projects/Project1.html" target="_blank">Used in: House Price Prediction</a></p>
-            </li>
-            <li>
-              <p><a href="projects/Project1.html" target="_blank">Used in: House Price Prediction</a></p>
-            </li>
-            <li>
-              <p><a href="projects/Project1.html" target="_blank">Used in: House Price Prediction</a></p>
-            </li>
-            <li>
-              <p><a href="projects/Project1.html" target="_blank">Used in: House Price Prediction</a></p>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- NLP -->
-      <div class="skill-card">
-        <i class="fa-solid fa-language"></i>
-        <h3>NLP</h3>
-        <div class="skill-info">
-          <p>Text classification, sentiment analysis, embeddings, Hugging Face transformers.</p>
-          <p><a href="projects/project4.html" target="_blank">Used in: Fake News Detection</a></p>
-        </div>
-      </div>
-
-      <!-- LLM -->
-      <div class="skill-card">
-        <i class="fa-solid fa-brain"></i>
-        <!-- <i class="fa-solid fa-hexagon-nodes fa-spin-pulse"></i> -->
-        <h3>Large Language Models</h3>
-        <div class="skill-info">
-          <p>Prompt engineering, fine-tuning, retrieval-augmented generation (RAG).</p>
-          <p><a href="projects/project7.html" target="_blank">Used in: Chatbot Project</a></p>
-        </div>
-      </div>
-
-      <!-- Web Development -->
-      <div class="skill-card">
-        <i class="fa-solid fa-code"></i>
-        <h3>Web Development</h3>
-        <div class="skill-info">
-          <p>HTML, CSS, JavaScript, Flask, FastAPI for building portfolio and ML apps.</p>
-          <p><a href="projects/project10.html" target="_blank">Used in: Portfolio Website</a></p>
-        </div>
-      </div>
-
-      <!-- Python -->
-      <div class="skill-card">
-        <i class="fa-brands fa-python"></i>
-        <h3>Python</h3>
-        <div class="skill-info">
-          <p>Data manipulation, automation, ML pipelines using Pandas, NumPy, Scikit-learn.</p>
-          <p><a href="projects/Project1.html" target="_blank">Used in: Fitness Tracker ML Project</a></p>
-        </div>
-      </div>
-
-      <!-- SQL -->
-      <div class="skill-card">
-        <i class="fa-solid fa-database"></i>
-        <h3>SQL</h3>
-        <div class="skill-info">
-          <p>Database queries, joins, views, data pipelines, and analytics.</p>
-          <p><a href="#" target="_blank">Used in: Data Engineering Project</a></p>
-        </div>
-      </div>
-
-      <!-- AWS -->
-      <div class="skill-card">
-        <i class="fa-brands fa-aws"></i>
-        <h3>AWS</h3>
-        <div class="skill-info">
-          <p>Cloud deployment with EC2, S3, RDS, Lambda, and CI/CD integration.</p>
-          <p><a href="projects/project3.html" target="_blank">Used in: ML Deployment Project</a></p>
-        </div>
-      </div>
-
-      <div class="skill-card">
-        <i class="fa-solid fa-chart-column"></i>
-        <h3>Visualization</h3>
-        <div class="skill-info">
-          <p>Excel, Seaborn, etc</p>
-          <ul>
-            <li>
-              <p><a href="projects/Project1.html" target="_blank">Used in: House Price Prediction</a></p>
-            </li>
-            <li>
-              <p><a href="projects/Project1.html" target="_blank">Used in: House Price Prediction</a></p>
-            </li>
-            <li>
-              <p><a href="projects/Project1.html" target="_blank">Used in: House Price Prediction</a></p>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Tools -->
-      <div class="skill-card">
-        <i class="fa-solid fa-gears"></i>
-        <h3>Tools & Libraries</h3>
-        <div class="skill-info">
-          <p>TensorFlow, PyTorch, OpenCV, Docker, Git, VS Code, Jupyter.</p>
-          <p><a href="projects/project5.html" target="_blank">Used in: Computer Vision Project</a></p>
-        </div>
-      </div>
-
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-container">
-      <p><i class="fa-regular fa-copyright"></i> Abhijeet Thombare 2025</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-
-</html>
-
-3. BHPP.html:
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project 1: Bangalore House Price Prediction</title>
-
-  <!-- Fonts & CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="../style.css" />
-</head>
-
-<body class="BHPP">
-  <!-- Header -->
-  <header>
-    <div class="header-container">
-      <section class="logo">
-        <a href="../index.html"><strong>abhithombare45</strong></a>
-      </section>
-      <ul class="desktop-view">
-        <li class="dropdown">
-          <a href="./../projects.html" id="project-button" href="#" aria-haspopup="true"
-            aria-expanded="false">Projects</a>
-          <div class="dropdown-content">
-            <!-- <div class="dropdown-column-ML"> -->
-            <div class="dropdown-column">
-              <h3>ML Projects</h3>
-              <a href="projects/BHPP.html">House Price Prediction</a>
-              <a href="projects/project2.html" target="_blank">House Price Prediction</a>
-              <a href="projects/project3.html" target="_blank">House Price Prediction</a>
-            </div>
-            <!-- <div class="dropdown-column-NLP"> -->
-            <div class="dropdown-column">
-              <h3>NLP Projects</h3>
-              <a href="projects/project4.html" target="_blank">House Price Prediction</a>
-              <a href="projects/project5.html" target="_blank">House Price Prediction</a>
-              <a href="projects/project6.html" target="_blank">House Price Prediction</a>
-            </div>
-            <!-- <div class="dropdown-column-LLM"> -->
-            <div class="dropdown-column">
-              <h3>Gen AI & LLM Projects</h3>
-              <a href="projects/project7.html" target="_blank">House Price Prediction</a>
-              <a href="projects/project8.html" target="_blank">House Price Prediction</a>
-              <a href="projects/project9.html" target="_blank">House Price Prediction</a>
-              <a href="projects/project10.html" target="_blank">House Price Prediction</a>
-            </div>
-            <div class="dropdown-column">
-              <h3>Time Series Projects</h3>
-              <a href="projects/project7.html" target="_blank">House Price Prediction</a>
-              <a href="projects/project8.html" target="_blank">House Price Prediction</a>
-              <a href="projects/project9.html" target="_blank">House Price Prediction</a>
-              <a href="projects/project10.html" target="_blank">House Price Prediction</a>
-            </div>
-          </div>
-        </li>
-      </ul>
-
-      <!-- Menu Button -->
-      <div class="menu-icon" onclick="toggleMenu()">
-        <i id="menu-toggle-icon" class="fa-solid fa-bars"></i>
-      </div>
-
-      <!-- Menu Area -->
-      <ul class="menu-area">
-        <!-- <li><a href="./../index.html">Home</a></li> -->
-        <li><a href="./../projects.html">Projects</a></li>
-        <li><a href="./../skills.html">Skills</a></li>
-      </ul>
-
-
-    </div>
-  </header>
-
-  <!-- Project Main Section -->
-  <main class="project-main">
-    <div class="project-header">
-      <div class="project-logo">
-        <img src="../assets/images/BHPP.jpg" alt="Project Logo" />
-      </div>
-      <div class="project-title">
-        <h1>Project 1: Bangalore House Price Prediction</h1>
-      </div>
-    </div>
-
-    <div class="project-description">
-      <p>
-        This project is an end-to-end machine learning application that predicts
-        house prices in Bangalore based on features such as location, size, and
-        amenities.
-      </p>
-      <p>
-        It is built using <strong>Python, Pandas, Scikit-learn</strong> for
-        model training and deployed with <strong>Flask, Gunicorn, and NGINX on AWS EC2</strong>.
-      </p>
-      <p>
-        Key highlights include:
-      </p>
-      <ul>
-        <li>Data preprocessing & feature engineering</li>
-        <li>Hyperparameter tuning for regression models</li>
-        <li>Interactive web interface with Flask</li>
-        <li>Full-stack deployment pipeline (EC2 + NGINX + Gunicorn)</li>
-      </ul>
-      <a href="https://github.com/abhithombare45/BHP" target="_blank" class="btn-project">View on
-        GitHub</a>
-    </div>
-  </main>
-
-  <!-- Footer -->
-  <footer>
-    <div class="footer-container">
-      <p>© Abhijeet Thombare 2025</p>
-    </div>
-  </footer>
-
-  <script src="./../script.js"></script>
-</body>
-
-</html>
-
-
-
-4. Projects.html:
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Projects by Abhijeet Thombare - AI/ML Engineer Portfolio" />
-    <meta name="author" content="Abhijeet Thombare" />
-    <title>Projects | Abhijeet Thombare</title>
-
-    <!-- Fonts & CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto+Mono:wght@300;400;700&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
-</head>
-
-<body class="projects-page-body">
-
-    <!-- Header -->
-    <header>
-        <div class="header-container">
-            <section class="logo">
-                <a href="index.html"><strong>abhithombare45</strong></a>
-            </section>
-            <nav>
-                <ul class="desktop-view">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                </ul>
-
-                <!-- Menu Button -->
-                <div class="menu-icon" onclick="toggleMenu()">
-                    <i id="menu-toggle-icon" class="fa-solid fa-bars"></i>
-                </div>
-
-                <!-- Menu Area -->
-                <ul class="menu-area">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                </ul>
-
-            </nav>
-        </div>
-    </header>
-
-    <!-- Main Projects List -->
-    <main class="projects-list">
-        <h1>My Projects</h1>
-
-        <h2 class="project-section ml-section">ML Projects</h2>
-
-        <!-- Example Project Row (repeat for 10) -->
-        <div class="project-row-ML">
-            <div class="project-icon">
-                <img src="assets/images/BHPP.jpg" alt="Project 1 Logo">
-            </div>
-            <div class="project-details">
-                <h2><a href="projects/BHPP.html">Project 1: Bangalore House Price Prediction</a></h2>
-                <p>This is an end-to-end ML project predicting house prices in Bangalore using regression models,
-                    deployed with Flask on AWS EC2.</p>
-            </div>
-        </div>
-
-        <!-- Clone rows for now with same Project1 link -->
-        <div class="project-row-ML">
-            <div class="project-icon">
-                <img src="assets/images/BHPP.jpg" alt="Project 1 Logo">
-            </div>
-            <div class="project-details">
-                <h2><a href="projects/BHPP.html">Project 2: Bangalore House Price Prediction</a></h2>
-                <p>This is an end-to-end ML project predicting house prices in Bangalore using regression models,
-                    deployed with Flask on AWS EC2.</p>
-            </div>
-        </div>
-
-        <div class="project-row-ML">
-            <div class="project-icon">
-                <img src="assets/images/BHPP.jpg" alt="Project 1 Logo">
-            </div>
-            <div class="project-details">
-                <h2><a href="projects/BHPP.html">Project 3: Bangalore House Price Prediction</a></h2>
-                <p>This is an end-to-end ML project predicting house prices in Bangalore using regression models,
-                    deployed with Flask on AWS EC2.</p>
-            </div>
-        </div>
-
-        <h2 class="project-section nlp-section">NLP Projects</h2>
-        <div class="project-row-NLP">
-            <div class="project-icon">
-                <img src="assets/images/placeholder.jpg" alt="NLP Project Logo">
-            </div>
-            <div class="project-details">
-                <h2><a href="#">Project 1: NLP Placeholder</a></h2>
-                <p>Description for NLP project goes here.</p>
-            </div>
-        </div>
-
-        <h2 class="project-section llm-section">LLM Projects</h2>
-        <div class="project-row-LLM">
-            <div class="project-icon">
-                <img src="assets/images/placeholder.jpg" alt="LLM Project Logo">
-            </div>
-            <div class="project-details">
-                <h2><a href="#">Project 1: LLM Placeholder</a></h2>
-                <p>Description for LLM project goes here.</p>
-            </div>
-        </div>
-
-        <h2 class="project-section ts-section">Time Series Projects</h2>
-        <div class="project-row-TS">
-            <div class="project-icon">
-                <img src="assets/images/placeholder.jpg" alt="Time Series Project Logo">
-            </div>
-            <div class="project-details">
-                <h2><a href="#">Project 1: Time Series Placeholder</a></h2>
-                <p>Description for Time Series project goes here.</p>
-            </div>
-        </div>
-
-        <!-- repeat till Project 10 -->
-        <!-- You can later replace links/descriptions -->
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-container">
-            <p><i class="fa-regular fa-copyright"></i> Abhijeet Thombare 2025</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
-
-
-
-5. Sales.css:
 html,
 body {
   margin: 0;
@@ -741,18 +69,10 @@ header nav ul {
   /* adding space behind the contact link in header */
 }
 
-
-
-.desktop-view li {
+header nav ul li {
   display: inline-block;
   margin-right: 26px;
 }
-
-
-.desktop-view li:last-of-type {
-  padding-right: 200px;
-}
-
 
 header nav ul li.menu-icon {
   display: none;
@@ -780,95 +100,75 @@ header nav ul li a {
 /* ############################## */
 /* Menu Button | Mobile screen */
 /* ############################## */
-/* ########## Menu Button ########## */
-/* .menu-icon {
-  display: none;
-  position: relative;
-  font-size: 28px;
-  cursor: pointer;
-  background: black;
-  color: beige;
-  padding: 6px 12px;
-  border-radius: 4px;
-  z-index: 1000;
-} */
 
-.menu-icon {
-  display: none;
-  position: relative;
-  z-index: 1100;
-  font-size: 30px;
-  cursor: pointer;
-  background: black;
-  color: beige;
-  padding: 6px 15px;
-  /* padding: 4px 10px 4px 0px; */
-  border-radius: 8px;
-}
-
-/* ########## Mobile Menu ########## */
 .menu-area {
   position: fixed;
-  top: -5%;
-  /* hidden above screen */
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80%;
-  height: 10%;
-  /* adjust height of menu */
-  background: black;
-  color: beige;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* gap: 30px; */
-  list-style: none;
-  opacity: 0;
-  pointer-events: none;
-  border-radius: 6px;
-
-  transition: all 0.4s ease-in-out;
-  /* z-index: 1000; */
-}
-
-/* Active state (visible) */
-.menu-area.active {
-  /* top: 60px; */
-  top: 25px;
+  top: 0;
+  left: 0;
+  height: 14%;
+  width: 90%;
   z-index: 999;
 
-  /* slides down from header */
-  opacity: 1;
-  pointer-events: auto;
+  backdrop-filter: blur(10px);
+  /* background-color: rgba(0, 0, 0, 0.06); */
+  background-color: black;
+  /* rgba(131, 220, 71, 0.031); */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
+
+  /* display: flex; */
+  display: none;
+
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 10px;
+  margin-top: 30px;
 
 }
 
 
-.menu-area li {
-  display: flex;
+.menu-area ul li a:first-of-type {
+  color: blue;
 }
 
-/* Menu items */
 .menu-area li a {
   color: beige;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 10px 100px;
-  /* margin-top: 50px; */
-  /* transition: background 0.3s ease; */
 }
 
-.menu-area li a:hover {
-  background: gray;
-  border-radius: 4px;
+.menu-area li:first-child {
+  width: auto;
+  padding-left: 0;
+  margin-left: auto;
+  margin-top: 30px;
+  /* padding-left: 90%; */
+
 }
 
+.menu-area li {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+  padding-bottom: 10px;
+}
 
+.menu-area a {
+  /* height: 30px; */
+  padding-left: 10px;
+  width: 90%;
+}
 
+.menu-area a:hover {
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.06);
+  /* rgba(131, 220, 71, 0.031); */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
+}
 
-
-
+.menu-button {
+  display: none;
+}
 
 
 /* ############################## */
@@ -1001,10 +301,7 @@ section.typed-text .txt-container {
   /* Keep them on the same line */
   max-width: 1200px;
   /* Optional max width for layout */
-  /* margin: 20px 100px 30px 100px; */
   margin: 20px auto;
-  /* padding: 20px 100px 30px 100px; */
-  /* margin-top: 100px; */
   padding: 0 15px;
   font-size: 18px;
   gap: 30px;
@@ -1024,8 +321,7 @@ section.typed-text .txt-container {
   /* Fixed 60% width */
   /* max-width: 90%; */
   max-width: clamp(300px, 80%, 1000px);
-  /* margin: auto; */
-  margin: 0;
+  margin: auto;
   box-sizing: border-box;
   /* background-color: yellowgreen; */
 }
@@ -1033,7 +329,6 @@ section.typed-text .txt-container {
 #info p {
   line-height: 1.6;
   text-align: justify;
-  height: 100%;
 }
 
 #info p a {
@@ -1050,7 +345,6 @@ section.typed-text .txt-container {
   /* background-color: yellowgreen; */
   padding: 0;
   margin: 0;
-  /* margin-top: 50px; */
   flex-direction: column;
   align-items: center;
 }
@@ -1155,9 +449,6 @@ footer div.footer-container p {
   /* background-color:  */
 }
 
-.footer-container i {
-  padding-right: 10px;
-}
 
 
 
@@ -1211,7 +502,6 @@ footer div.footer-container p {
   /* set max width as needed */
   /* width: max-content; */
   /* width based on content */
-
 }
 
 .dropdown-content {
@@ -1306,35 +596,19 @@ footer div.footer-container p {
   transform: translateX(5px);
 }
 
-
-
-/* Dropdown hover logic for skills page */
-.dropdown-skills-about {
-  position: relative;
-  display: inline-block;
-  z-index: 10000;
+/* Responsive view: 
+  On small screens, 
+  dropdown should stack vertically instead of 3 columns. */
+@media (max-width: 768px) {
+  .dropdown-content {
+    flex-direction: column;
+    min-width: 100%;
+  }
 }
 
-.dropdown-skills-about:hover .dropdown-content {
-  display: flex;
-  opacity: 1;
-  transform: translateY(0);
-  padding-right: 20px;
-  padding-bottom: 50px;
-}
 
-.dropdown-skills-about:hover .dropdown-content h3 {
-  display: flex;
-  align-items: center;
-  padding-left: 50px;
-  width: 90%;
-}
 
-.dropdown-skills-about:hover .dropdown-content a {
-  display: grid;
-  padding: 10px;
-  margin: 20px;
-}
+
 
 
 
@@ -1344,7 +618,7 @@ footer div.footer-container p {
 
 
 /* ############################## */
-/* Individual Project Detail Page */
+/* Project Detail Page */
 /* ############################## */
 
 .project-main {
@@ -1354,32 +628,18 @@ footer div.footer-container p {
   font-family: "Roboto Mono", monospace;
 }
 
-body.BHPP .header-container ul.desktop-view {
-  padding-right: 400px;
-}
-
-body.BHPP .header-container #project-button {
-  /* padding-right: 400px; */
-  width: 0;
-}
-
-body.BHPP .project-header {
+.project-header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 30px;
   margin-bottom: 30px;
-  /* background-color: #000; */
-  padding-top: 80px;
 }
-
-
 
 .project-logo img {
   padding-top: 50px;
-  width: 200px;
-  height: auto;
-  border-radius: 10px;
+  max-width: 320px;
+  border-radius: 8px;
 }
 
 .project-title h1 {
@@ -1410,68 +670,6 @@ body.BHPP .project-header {
 /* All Project Details */
 /* ############################## */
 
-/* toggle logic  */
-
-.project-section {
-  cursor: pointer;
-  position: relative;
-  padding-right: 20px;
-  /* background-color: yellow; */
-}
-
-.project-section:hover {
-  position: relative;
-  top: 100%;
-  left: 0;
-  border-radius: 6px;
-  color: #0066cc;
-  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
-  gap: 40px;
-  justify-content: space-between;
-  padding: 20px;
-  z-index: 9999; */
-}
-
-.project-section::after {
-  content: "▶";
-  /* right arrow */
-  position: absolute;
-  right: 0;
-  transition: transform 0.3s ease;
-}
-
-.project-section.active::after {
-  content: "▼";
-  /* down arrow when active */
-}
-
-
-/* Hide ML rows by default */
-.project-row-ML {
-  display: none;
-}
-
-.project-row-ML.active {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  margin-bottom: 30px;
-  padding-left: 30px;
-
-}
-
-.project-row-ML.active:hover {
-  position: relative;
-  top: 100%;
-  left: 0;
-  border-radius: 6px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
-  gap: 40px;
-  justify-content: space-between;
-  z-index: 9999;
-}
-
-/* toggle logic end */
 
 /* Projects Page Layout */
 .projects-list {
@@ -1502,9 +700,7 @@ body.BHPP .project-header {
   /* subtle hover background */
 }
 
-
 .project-icon img {
-  padding-top: 30px;
   width: 120px;
   height: auto;
   border-radius: 10px;
@@ -1532,139 +728,13 @@ body.BHPP .project-header {
 }
 
 
-
-
-
-/* ############################## */
-/* toggle logic for other class(NLP, LLM, TS) */
-/* ############################## */
-
-/* Hide by default */
-.project-row-NLP,
-.project-row-LLM,
-.project-row-TS {
-  display: none;
-}
-
-/* Active state */
-.project-row-NLP.active,
-.project-row-LLM.active,
-.project-row-TS.active {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  margin-bottom: 30px;
-  padding-left: 30px;
-}
-
-/* ############################## */
-/* toggle logic for other class(NLP, LLM, TS) */
-/* ############################## */
-
-
-
-
-
-
-
-
-
-
-
 /* ############################## */
 /* Skills Page */
 /* ############################## */
 
 body.skills-page-body header {
-  /* background-color: rgba(0, 0, 0, 0.5); */
-  /* position: absolute; */
-  position: fixed;
-  z-index: 999999;
-  /* background-color: #000; */
-}
-
-.dropdown-skills-about {
-  position: relative;
-  z-index: 200000;
-  /* higher than skill cards */
-}
-
-
-.dropdown-skills-about a#project-button {
-  background-color: #000;
-  padding: 10px;
-  border-radius: 8px;
-  color: beige;
-}
-
-.dropdown-skills-about .dropdown-content {
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  /* Take it out of the normal flow */
-  top: 100%;
-  /* Push it just below the Contact link */
-  left: 0;
-  background-color: beige;
-  /* background-color: #000; */
-  z-index: 999999;
-  /* Make sure it's above skill cards */
-  /* padding: 15px; */
-  min-width: 220px;
-  /* So it doesn’t collapse */
-}
-
-.dropdown-skills-about:hover .dropdown-content {
-  display: block;
-  padding-left: 15px;
-
-}
-
-.dropdown-skills-about:hover .dropdown-content .dropdown-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* background-color: yellow; */
-}
-
-.dropdown-skills-about .dropdown-content .dropdown-column a:first-child {
-  text-decoration: none;
-  color: inherit;
-  outline: none;
-  box-shadow: none;
-}
-
-a#name {
-  text-decoration: none;
-  color: inherit;
-  /* padding-right: 10%; */
-  margin-right: 20%;
-  /* keeps the same color as surrounding text */
-}
-
-a#name,
-a#name:visited,
-a#name:hover,
-a#name:focus {
-  text-decoration: none;
-  color: inherit;
-  outline: none;
-  box-shadow: none;
-}
-
-.dropdown-skills-about .dropdown-content .dropdown-column a {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-}
-
-
-.dropdown-skills-about .dropdown-column a {
-  /* background-color: yellow; */
-  align-items: center;
-  /* width: 100%;
-  padding-left: 50%; */
-  /* color: #0066cc; */
 }
 
 .skills-page {
@@ -1683,49 +753,33 @@ a#name:focus {
 }
 
 .skills-grid {
-  /* display: column; */
+  display: column;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
   padding-bottom: 50px;
-  /* overflow: visible; */
 }
 
+div.skill-card {
+  /* background-color: yellow; */
+  text-align: left;
+  padding-bottom: 50px;
+}
 
 /* Skill Card */
 .skill-card {
   background: rgba(255, 255, 255, 0.85);
   border-radius: 10px;
-  padding: 10px;
-  margin: 30px;
-  text-align: left;
+  padding: 30px;
+  text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
-  /* position: absolute; */
   min-height: 250px;
-  /* background-color: yellow; */
-  width: 100%;
-  /* height: 100%; */
 }
 
-.skill-card:hover {
-  background-color: #000;
-  color: beige;
+div.skill-card {
+  gap: 50px;
+  /* margin-bottom: 50px; */
 }
-
-.skill-card:hover h3 {
-  color: beige;
-}
-
-.skill-card i {
-  transition: transform 0.5s ease-in-out;
-}
-
-.skill-card:hover i {
-  padding-left: 50px;
-  transform: scale(1.5);
-  /* slight zoom with bounce */
-}
-
 
 .skill-card i {
   font-size: 100px;
@@ -1736,8 +790,6 @@ a#name:focus {
   /* display: inline-flex; */
   /* align-items: center; */
 }
-
-
 
 .skill-card h3 {
   margin: 10px 0;
@@ -1759,12 +811,10 @@ a#name:focus {
   transform: translateX(-50%);
   font-size: 22px;
   text-align: center;
-  /* z-index: 10; */
+  z-index: 10;
   height: 80%;
-  /* height: 100%; */
   position: absolute;
   /* position: static; */
-  /* position: relative; */
   width: 75%;
   /* width: clamp(200px, 60vw, 400px); */
   min-height: 200px;
@@ -1797,28 +847,19 @@ a#name:focus {
 
 
 
-/* ################################# */
-/* ################################# */
-/* ################################# */
-/* ################################# */
-/* ################################# */
-/* ################################# */
-/* ################################# */
-/* ################################# */
-/* ################################# */
-/* ################################# */
-/* ################################# */
+
 /* ################################# */
 /* Styles For Smaller Desktop Screen */
 /* ################################# */
 
 @media only screen and (max-width: 1440px) {
-
+  body {
+    background-color: yellow;
+  }
 
   header nav ul {
     padding-right: 300px;
   }
-
 
   section.typed-text h1 {
     font-size: 55px;
@@ -1829,57 +870,28 @@ a#name:focus {
     left: 8%;
   }
 
-  .desktop-view li:last-of-type {
-    padding-right: 120px;
-  }
-
-  .about-container {
-    margin-left: 60px;
-  }
 
 
 
-  .projects-list .project-row {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
 
 
-  /* Skills */
 
-  .skill-info {
-    width: 65%;
-  }
-
-  .skill-card {
-    width: 90%;
-  }
-
-
-  /* BHPP  */
-
-
-  body.BHPP .header-container ul.desktop-view {
-    padding-right: 450px;
-  }
 
 
 }
 
 
 /* ################################# */
-/* add for header changes */
+/* add for header | op */
 /* ################################# */
 
 @media only screen and (min-width: 960px) and (max-width: 1150px) {
-
+  body {
+    background-color: red;
+  }
 
   header nav ul {
     padding-right: 50px;
-  }
-
-  header nav ul.desktop-view {
-    display: none;
   }
 
   /* .dropdown {
@@ -1887,8 +899,6 @@ a#name:focus {
     display: inline-block;
     z-index: 10000;
   } */
-
-
 
   .dropdown .dropdown-content {
     display: none !important;
@@ -1898,53 +908,13 @@ a#name:focus {
     box-shadow: none;
   }
 
-
   .dropdown>a {
     pointer-events: auto;
     /* make sure link works */
   }
 
-  .dropdown-skills-about a#project-button {
-    display: none;
-  }
 
 
-
-  /* new code  */
-  .menu-icon {
-    display: inline-block;
-    /* need change here  */
-  }
-
-  .menu-area {
-    width: 82%;
-  }
-
-  .about-container {
-    margin-left: 80px;
-  }
-
-  .projects-list .project-row {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-
-  /* Skills */
-
-  .skill-info {
-    width: 60%;
-  }
-
-  .skill-card {
-    width: 90%;
-  }
-
-
-  /* BHPP  */
-  body.BHPP a#project-button {
-    display: none;
-  }
 
 }
 
@@ -1956,7 +926,9 @@ a#name:focus {
 /* ################################# */
 
 @media only screen and (max-width: 960px) {
-
+  body {
+    background-color: green;
+  }
 
   /* .dropdown .dropdown-content {
     display: none !important;
@@ -1986,129 +958,20 @@ a#name:focus {
     display: flex;
   }
 
-
-
-  /* new code  */
-  .menu-icon {
-    display: inline-block;
-    margin-top: 32px;
-  }
-
-
-  main.project-main {
-    padding-top: 50px;
-  }
-
-  .menu-area {
-    width: 90%;
-  }
-
-  nav ul {
+  /* .menu-area {
     display: none;
-    /* hide normal nav list */
-  }
-
-  .menu-area.active {
-    /* position: fixed; */
-    display: flex;
-    height: 10vh;
-  }
-
-  section.typed-text h1 {
-    font-size: 40px;
-  }
-
+  } */
 
   .dropdown {
     display: none;
   }
 
-
-  /* hide the desktop nav ul */
-  /* nav>ul:not(.menu-area) {
-    display: none;
-  } */
-
-
-  .about-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  #info p {
-    margin-bottom: 5px;
-  }
-
-
-  .about-container {
-    padding-bottom: 380px;
-
-  }
-
-  div #links {
-    padding-bottom: 80px;
-    /* box-shadow: 0 4px 0px rgba(0, 0, 0, 0.4),
-      0 -4px 0px rgba(0, 0, 0, 0.4);
-    background: rgba(245, 245, 225, 0); */
-    width: 100%;
-    /* height: 90%; */
-  }
-
-
-  div#drop-mail i:first-of-type {
-    padding-bottom: 20px;
-  }
-
-  .menu-area.active {
-    /* position: fixed; */
-    display: flex;
-    height: 10vh;
-  }
-
-  div#drop-mail i {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 40px;
-    /* padding: 10px; */
-    /* background-color: #000; */
-  }
-
-
-  .projects-list h1 {
-    margin-top: 10%;
-  }
-
-  .projects-list .project-row {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
-    /* align-items: center; */
-  }
-
-
-  /* Skills */
-
-  .skill-info {
-    width: 55%;
-    margin-left: 50px;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  section.typed-text h1 {
+    font-size: 30px;
   }
 
 
 
-
-  /* BHPP   */
-  .header-container .desktop-view li.dropdown a#project-button {
-    display: none;
-  }
 
 }
 
@@ -2123,176 +986,7 @@ a#name:focus {
 /* ################################# */
 
 @media only screen and (max-width: 576px) {
-
-  section.typed-text h1 {
-    font-size: 30px;
+  body {
+    background-color: blue;
   }
-
-  .menu-icon {
-    display: inline-block;
-  }
-
-  .menu-area.active {
-    width: 38vh;
-  }
-
-
-  div #links li {
-    /* padding-bottom: 80px; */
-    display: flex;
-    flex-direction: column;
-    /* height: 90%; */
-  }
-
-  .projects-list h1 {
-    margin-top: 15%;
-  }
-
-  /* Skills */
-
-  /* .skill-info {
-    width: 60%;
-  } */
-
-  .skill-card {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-  }
-
-  .skill-card i {
-    padding: 10px;
-  }
-
-  .skill-card h3 {
-    /* padding: 10px; */
-    font-size: 20px;
-    align-items: center;
-  }
-
-  .skill-card .skill-info {
-    padding: 10px;
-    padding-right: 0px;
-    margin-left: 30px;
-    font-size: 15px;
-  }
-
-  .skill-card i {
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .skill-card:hover i {
-    transform: scale(1);
-    /* slight zoom with bounce */
-  }
-
 }
-
-
-
-6. Script.js:
-
-// Will add interactivity (navbar toggle, animations) later
-console.log("Portfolio loaded successfully!");
-
-
-
-function toggleMenu() {
-    const menu = document.querySelector(".menu-area");
-    // const icon = document.querySelector(".menu-icon");
-
-    // Toggle active class
-    menu.classList.toggle("active");
-
-    // Change icon between ☰ and ✖
-
-    if (menu.classList.contains("active")) {
-        icon.classList.remove("fa-bars");
-        icon.classList.add("fa-xmark");
-        icon.classList.add("fa-solid");  // ensure correct style
-    } else {
-        icon.classList.remove("fa-xmark");
-        icon.classList.add("fa-bars");
-        icon.classList.add("fa-solid");  // ensure correct style
-    }
-
-}
-
-
-// ✅ New ML Projects toggle logic
-document.querySelector(".ml-section").addEventListener("click", () => {
-    const section = document.querySelector(".ml-section");
-
-    // Toggle the active class on the heading
-    section.classList.toggle("active");
-
-    // Show/Hide its project rows
-    let next = section.nextElementSibling;
-    while (next && next.classList.contains("project-row-ML")) {
-        next.classList.toggle("active", section.classList.contains("active"));
-        next = next.nextElementSibling;
-    }
-});
-
-// ✅ New NLP, LLM, TS Projects toggle logic
-document.addEventListener("DOMContentLoaded", () => {
-    const sections = document.querySelectorAll(".project-section");
-
-    sections.forEach(section => {
-        section.addEventListener("click", () => {
-            // Close all open rows
-            document.querySelectorAll("[class^='project-row-']").forEach(row => {
-                row.classList.remove("active");
-            });
-            document.querySelectorAll(".project-section").forEach(sec => {
-                sec.classList.remove("active");
-            });
-
-            // Open the clicked one
-            section.classList.add("active");
-            const sectionClass = section.classList.contains("ml-section") ? ".project-row-ML" :
-                section.classList.contains("nlp-section") ? ".project-row-NLP" :
-                    section.classList.contains("llm-section") ? ".project-row-LLM" :
-                        section.classList.contains("ts-section") ? ".project-row-TS" : null;
-            if (sectionClass) {
-                document.querySelectorAll(sectionClass).forEach(row => row.classList.add("active"));
-            }
-        });
-    });
-});
-
-
-
-// for icon animation in skills page
-// Skill card hover animations
-// Animate only the robot icon on hover
-// Animate Robot icon in Skills page on hover
-// document.addEventListener("DOMContentLoaded", () => {
-//     const robotIcon = document.querySelector(".fa-robot");
-//     if (robotIcon) {
-//         robotIcon.addEventListener("mouseenter", () => {
-//             robotIcon.classList.add("fa-bounce");
-//         });
-//         robotIcon.addEventListener("mouseleave", () => {
-//             robotIcon.classList.remove("fa-bounce");
-//         });
-//     }
-// });
-
-window.addEventListener("scroll", function () {
-    const header = document.querySelector("header");
-    if (window.scrollY > 50) {
-        header.style.background = "rgba(0, 0, 0, 0.1)";
-        header.style.backdropFilter = "blur(6px)";
-    } else {
-        header.style.background = "transparent";
-        header.style.backdropFilter = "none";
-    }
-});
-
-
-
-
-
-
