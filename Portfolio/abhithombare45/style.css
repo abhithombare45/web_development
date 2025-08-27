@@ -1205,7 +1205,7 @@ body.skills-page-body header {
 
   /* BHPP */
   body.BHPP header ul {
-    display: none;
+    /* display: none; */
   }
 
 
