@@ -141,7 +141,7 @@ header nav ul li a {
   /* hidden above screen */
   left: 50%;
   transform: translateX(-50%);
-  width: 80.5%;
+  width: 80%;
   height: 10%;
   /* adjust height of menu */
   background: black;
@@ -1019,12 +1019,12 @@ div.skill-card {
 
   .menu-area {
     display: flex;
+    height: 100%;
   }
 
   section.typed-text h1 {
     font-size: 40px;
   }
-
 
 
   .dropdown {
