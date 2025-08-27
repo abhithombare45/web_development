@@ -1290,10 +1290,29 @@ div.skill-card {
     width: 60%;
   } */
 
+
+
+  .skill-card {
+    width: 90%;
+  }
+
+  .skill-card i {
+    padding: 10px;
+  }
+
+  .skill-card h3 {
+    padding: 10px;
+  }
+
+  .skill-card .skill-info {
+    padding: 10px;
+  }
+
   .skill-card {
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
+    /* height: 100%; */
   }
-
 
 }
