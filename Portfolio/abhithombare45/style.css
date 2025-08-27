@@ -642,7 +642,7 @@ footer div.footer-container p {
 
 
 /* ############################## */
-/* Project Detail Page */
+/* Individual Project Detail Page */
 /* ############################## */
 
 .project-main {
@@ -660,6 +660,44 @@ footer div.footer-container p {
   margin-bottom: 30px;
 }
 
+
+
+
+
+
+.project-logo img {
+  padding-top: 35px;
+  max-width: 320px;
+  border-radius: 8px;
+}
+
+.project-title h1 {
+  font-size: 28px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.project-description {
+  /* width: 100%; */
+  /* max-width: 1000px; */
+  width: clamp(280px, 100%, 1000px);
+  margin: auto;
+}
+
+.project-description p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+
+
+
+
+
+
+/* ############################## */
+/* All Project Details */
+/* ############################## */
 
 /* toggle logic  */
 
@@ -723,43 +761,6 @@ footer div.footer-container p {
 }
 
 /* toggle logic end */
-
-
-
-.project-icon img {
-  padding-top: 35px;
-  max-width: 320px;
-  border-radius: 8px;
-}
-
-.project-title h1 {
-  font-size: 28px;
-  margin: 0;
-  font-weight: 700;
-}
-
-.project-description {
-  /* width: 100%; */
-  /* max-width: 1000px; */
-  width: clamp(280px, 100%, 1000px);
-  margin: auto;
-}
-
-.project-description p {
-  margin-bottom: 15px;
-  line-height: 1.6;
-}
-
-
-
-
-
-
-
-/* ############################## */
-/* All Project Details */
-/* ############################## */
-
 
 /* Projects Page Layout */
 .projects-list {
