@@ -652,14 +652,20 @@ footer div.footer-container p {
 }
 
 .dropdown-skills-about:hover .dropdown-content h3 {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
   align-items: center;
-  padding-top: 10px;
-  /* height: auto; */
+  padding-left: 50px;
+  width: 90%;
 }
 
-
+.dropdown-skills-about:hover .dropdown-content a {
+  /* display: flex;
+  flex-direction: row; */
+  /* align-items: center; */
+  /* padding-left: 50px; */
+  /* width: 90%; */
+  z-index: 99999;
+}
 
 
 
