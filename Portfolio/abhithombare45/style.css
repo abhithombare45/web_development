@@ -659,12 +659,9 @@ footer div.footer-container p {
 }
 
 .dropdown-skills-about:hover .dropdown-content a {
-  /* display: flex;
-  flex-direction: row; */
-  /* align-items: center; */
-  /* padding-left: 50px; */
-  /* width: 90%; */
-  z-index: 99999;
+  display: grid;
+  padding: 10px;
+  margin: 20px;
 }
 
 
@@ -942,6 +939,16 @@ div.skill-card {
   width: 100%;
   height: 100%;
 }
+
+.skill-card:hover {
+  background-color: #000;
+  color: beige;
+}
+
+.skill-card:hover h3 {
+  color: beige;
+}
+
 
 div.skill-card {
   gap: 50px;
