@@ -949,7 +949,6 @@ div.skill-card {
   color: beige;
 }
 
-/* 
 .skill-card i {
   transition: transform 0.2s ease-in-out;
 }
@@ -957,7 +956,7 @@ div.skill-card {
 .skill-card:hover i {
   transform: scale(1.2);
   /* slight zoom with bounce */
-/* } */
+}
 
 div.skill-card {
   gap: 50px;
