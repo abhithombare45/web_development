@@ -900,8 +900,6 @@ body.skills-page-body header {
   /* background-color: #000; */
 }
 
-
-
 .dropdown-skills-about {
   position: relative;
   z-index: 200000;
@@ -925,7 +923,7 @@ body.skills-page-body header {
   background-color: beige;
   z-index: 999999;
   /* Make sure it's above skill cards */
-  padding: 15px;
+  /* padding: 15px; */
   min-width: 220px;
   /* So it doesn’t collapse */
 }
@@ -1175,9 +1173,9 @@ body.skills-page-body header {
 
 
   /* new code  */
-  .menu-icon {
+  /* .menu-icon {
     display: inline-block;
-  }
+  } */
 
   .about-container {
     margin-left: 80px;
