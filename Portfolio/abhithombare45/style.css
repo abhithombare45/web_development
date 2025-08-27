@@ -683,11 +683,12 @@ footer div.footer-container p {
 }
 
 
-.project-row {
+/* Hide ML rows by default */
+.project-row-ML {
   display: none;
 }
 
-.project-row.active {
+.project-row-ML.active {
   display: flex;
   flex-direction: row;
 }

@@ -23,43 +23,20 @@ function toggleMenu() {
 }
 
 
-// document.querySelectorAll(".project-section").forEach(section => {
-//     section.addEventListener("click", () => {
-//         let next = section.nextElementSibling;
-//         while (next && next.classList.contains("project-row")) {
-//             next.classList.toggle("active");
-//             next = next.nextElementSibling;
-//         }
-//     });
-// });
+// ✅ New ML Projects toggle logic
+document.querySelector(".ml-section").addEventListener("click", () => {
+    const section = document.querySelector(".ml-section");
 
+    // Toggle the active class on the heading
+    section.classList.toggle("active");
 
-
-
-
-
-document.querySelectorAll(".project-section").forEach(section => {
-    section.addEventListener("click", () => {
-        // Close all sections first (accordion behavior)
-        document.querySelectorAll(".project-section").forEach(sec => {
-            if (sec !== section) sec.classList.remove("active");
-        });
-        document.querySelectorAll(".project-row").forEach(row => {
-            row.classList.remove("active");
-        });
-
-        // Toggle clicked section
-        section.classList.toggle("active");
-
-        // Show/Hide only its related project-rows
-        let next = section.nextElementSibling;
-        while (next && next.classList.contains("project-row")) {
-            next.classList.toggle("active", section.classList.contains("active"));
-            next = next.nextElementSibling;
-        }
-    });
+    // Show/Hide its project rows
+    let next = section.nextElementSibling;
+    while (next && next.classList.contains("project-row-ML")) {
+        next.classList.toggle("active", section.classList.contains("active"));
+        next = next.nextElementSibling;
+    }
 });
-
 
 
 
