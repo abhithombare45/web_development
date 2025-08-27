@@ -671,7 +671,16 @@ footer div.footer-container p {
 }
 
 .project-section:hover {
-  background-color: yellow;
+  position: relative;
+  top: 100%;
+  left: 0;
+  border-radius: 6px;
+  color: #0066cc;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.55);
+  gap: 40px;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 9999; */
 }
 
 .project-section::after {
@@ -779,6 +788,12 @@ footer div.footer-container p {
 .project-row:hover {
   background-color: rgba(0, 0, 0, 0.05);
   /* subtle hover background */
+}
+
+.project-logo img {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
 }
 
 .project-icon img {
