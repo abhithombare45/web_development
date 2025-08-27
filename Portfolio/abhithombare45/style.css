@@ -682,12 +682,19 @@ footer div.footer-container p {
   font-family: "Roboto Mono", monospace;
 }
 
-.project-header {
+
+body.BHPP .project-header {
+  background-color: #000;
+}
+
+body.BHPP .project-header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 30px;
   margin-bottom: 30px;
+  /* background-color: #000; */
+  padding-top: 80px;
 }
 
 
