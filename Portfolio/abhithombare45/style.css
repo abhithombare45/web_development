@@ -949,6 +949,16 @@ body.skills-page-body header {
   box-shadow: none;
 }
 
+a#name,
+a#name:visited,
+a#name:hover,
+a#name:focus {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  box-shadow: none;
+}
+
 .dropdown-skills-about .dropdown-content .dropdown-column a {
   width: 90%;
   display: flex;
