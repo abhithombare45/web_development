@@ -660,16 +660,41 @@ footer div.footer-container p {
   margin-bottom: 30px;
 }
 
+
+/* toggle logic  */
+
+.project-section {
+  cursor: pointer;
+  position: relative;
+  padding-right: 20px;
+}
+
+.project-section::after {
+  content: "▶";
+  /* right arrow */
+  position: absolute;
+  right: 0;
+  transition: transform 0.3s ease;
+}
+
+.project-section.active::after {
+  content: "▼";
+  /* down arrow when active */
+}
+
+
 .project-row {
   display: none;
-  /* hidden by default */
 }
 
 .project-row.active {
   display: flex;
-  /* visible when toggled */
   flex-direction: row;
 }
+
+/* toggle logic end */
+
+
 
 .project-logo img {
   padding-top: 50px;

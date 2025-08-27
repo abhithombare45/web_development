@@ -23,15 +23,63 @@ function toggleMenu() {
 }
 
 
+// document.querySelectorAll(".project-section").forEach(section => {
+//     section.addEventListener("click", () => {
+//         let next = section.nextElementSibling;
+//         while (next && next.classList.contains("project-row")) {
+//             next.classList.toggle("active");
+//             next = next.nextElementSibling;
+//         }
+//     });
+// });
+
+
+
 document.querySelectorAll(".project-section").forEach(section => {
     section.addEventListener("click", () => {
+        // Close all open rows first
+        document.querySelectorAll(".project-section").forEach(sec => {
+            if (sec !== section) sec.classList.remove("active");
+        });
+        document.querySelectorAll(".project-row").forEach(row => {
+            row.classList.remove("active");
+        });
+
+        // Toggle only the clicked section’s rows
+        section.classList.toggle("active");
+
         let next = section.nextElementSibling;
         while (next && next.classList.contains("project-row")) {
-            next.classList.toggle("active");
+            next.classList.toggle("active", section.classList.contains("active"));
             next = next.nextElementSibling;
         }
     });
 });
+
+
+document.querySelectorAll(".project-section").forEach(section => {
+    section.addEventListener("click", () => {
+        // Close all sections first (accordion behavior)
+        document.querySelectorAll(".project-section").forEach(sec => {
+            if (sec !== section) sec.classList.remove("active");
+        });
+        document.querySelectorAll(".project-row").forEach(row => {
+            row.classList.remove("active");
+        });
+
+        // Toggle clicked section
+        section.classList.toggle("active");
+
+        // Show/Hide only its related project-rows
+        let next = section.nextElementSibling;
+        while (next && next.classList.contains("project-row")) {
+            next.classList.toggle("active", section.classList.contains("active"));
+            next = next.nextElementSibling;
+        }
+    });
+});
+
+
 
 
 window.addEventListener("scroll", function () {
