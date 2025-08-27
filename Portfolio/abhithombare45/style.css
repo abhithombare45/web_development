@@ -1150,9 +1150,6 @@ body.skills-page-body header {
   } */
 
 
-  .menu-icon {
-    display: none;
-  }
 
   .dropdown .dropdown-content {
     display: none !important;
@@ -1173,9 +1170,9 @@ body.skills-page-body header {
   }
 
 
-  div.menu-icon {
-    display: block;
-    /* padding: 0px; */
+  /* new code  */
+  .menu-icon {
+    display: inline-block;
   }
 
   .about-container {
