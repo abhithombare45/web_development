@@ -542,11 +542,6 @@ footer div.footer-container p {
 
 }
 
-
-.dropdown-skills-about {
-  background-color: yellow;
-}
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -640,6 +635,29 @@ footer div.footer-container p {
 }
 
 
+
+/* Dropdown hover logic for skills page */
+.dropdown-skills-about {
+  position: relative;
+  display: inline-block;
+  z-index: 10000;
+}
+
+.dropdown-skills-about:hover .dropdown-content {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+.dropdown-skills-about:hover .dropdown-content h3 {
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  padding-top: 10px;
+  /* height: auto; */
+}
 
 
 
