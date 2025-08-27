@@ -920,6 +920,11 @@ body.skills-page-body header {
   /* So it doesn’t collapse */
 }
 
+.dropdown-skills-about a .project-button {
+  background-color: #000;
+
+}
+
 
 .dropdown-skills-about:hover .dropdown-content {
   display: block;
@@ -929,7 +934,9 @@ body.skills-page-body header {
 .dropdown-skills-about:hover .dropdown-content .dropdown-column {
   display: flex;
   flex-direction: column;
-  /* Show only on hover */
+  align-items: center;
+  /* width: 100%; */
+  /* padding: 10px; */
 }
 
 .skills-page {
@@ -1025,9 +1032,9 @@ body.skills-page-body header {
   /* z-index: 10; */
   height: 80%;
   /* height: 100%; */
-  /* position: absolute; */
+  position: absolute;
   /* position: static; */
-  position: relative;
+  /* position: relative; */
   width: 75%;
   /* width: clamp(200px, 60vw, 400px); */
   min-height: 200px;
