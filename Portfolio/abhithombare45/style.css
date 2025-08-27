@@ -893,8 +893,9 @@ footer div.footer-container p {
 /* ############################## */
 
 body.skills-page-body header {
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* position: absolute; */
+  position: fixed;
 }
 
 .skills-page {
