@@ -549,7 +549,6 @@ footer div.footer-container p {
   left: 0;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.95);
   background: rgba(245, 245, 225, 0.3);
-  /* background-color: transparent; */
   border-radius: 6px;
   /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); */
   padding: 0px 0px;
@@ -559,6 +558,20 @@ footer div.footer-container p {
   transform: translateY(0);
   transition: opacity 0.5s, transform 0.5s;
   overflow-x: auto;
+
+  /* glass effect  */
+  background: rgba(255, 255, 255, 0.2);
+  /* semi-transparent */
+  border-radius: 16px;
+  /* smooth corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* soft shadow */
+  backdrop-filter: blur(6px);
+  /* blur background */
+  -webkit-backdrop-filter: blur(6px);
+  /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  /* soft border */
 }
 
 .dropdown a {
