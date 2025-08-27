@@ -1020,7 +1020,7 @@ div.skill-card {
   .menu-area.active {
     /* position: fixed; */
     display: flex;
-    height: 100%;
+    height: 10vh;
   }
 
   section.typed-text h1 {
@@ -1052,13 +1052,13 @@ div.skill-card {
 
 
   .about-container {
-    padding-bottom: 400px;
+    padding-bottom: 380px;
 
   }
 
   div #links {
     padding-bottom: 80px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.95);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.95);
     background: rgba(245, 245, 225, 0);
     /* height: 90%; */
   }
@@ -1074,7 +1074,7 @@ div.skill-card {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 40px;
     /* padding: 10px; */
     /* background-color: #000; */
   }
