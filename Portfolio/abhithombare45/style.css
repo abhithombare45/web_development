@@ -912,7 +912,8 @@ body.skills-page-body header {
   top: 100%;
   /* Push it just below the Contact link */
   left: 0;
-  background-color: yellow;
+  background-color: beige;
+  color: blue;
   z-index: 999999;
   /* Make sure it's above skill cards */
   padding: 15px;
@@ -924,7 +925,7 @@ body.skills-page-body header {
   background-color: #000;
   padding: 10px;
   border-radius: 8px;
-  color: yellow;
+  color: beige;
 }
 
 
@@ -939,6 +940,12 @@ body.skills-page-body header {
   align-items: center;
   /* width: 100%; */
   /* padding: 10px; */
+  background-color: yellow;
+}
+
+.dropdown-skills-about .dropdown-column a {
+
+  width: 100%;
 }
 
 .skills-page {
