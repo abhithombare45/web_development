@@ -930,10 +930,7 @@ body.skills-page-body header {
 
 .dropdown-skills-about:hover .dropdown-content {
   display: block;
-  /* align-items: center; */
-  /* background-color: yellow; */
 
-  /* Show only on hover */
 }
 
 .dropdown-skills-about:hover .dropdown-content .dropdown-column {
@@ -1165,19 +1162,21 @@ body.skills-page-body header {
     box-shadow: none;
   }
 
-  .dropdown-skills-about:hover .dropdown-content {
-    display: none;
-    /* align-items: center; */
-    /* background-color: yellow; */
-
-    /* Show only on hover */
-  }
 
   .dropdown>a {
     pointer-events: auto;
     /* make sure link works */
   }
 
+  .dropdown-skills-about a#project-button {
+    display: none;
+  }
+
+
+  div.menu-icon {
+    display: block;
+    /* padding: 0px; */
+  }
 
   .about-container {
     margin-left: 80px;

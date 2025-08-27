@@ -73,17 +73,17 @@ document.addEventListener("DOMContentLoaded", () => {
 // Skill card hover animations
 // Animate only the robot icon on hover
 // Animate Robot icon in Skills page on hover
-document.addEventListener("DOMContentLoaded", () => {
-    const robotIcon = document.querySelector(".fa-robot");
-    if (robotIcon) {
-        robotIcon.addEventListener("mouseenter", () => {
-            robotIcon.classList.add("fa-bounce");
-        });
-        robotIcon.addEventListener("mouseleave", () => {
-            robotIcon.classList.remove("fa-bounce");
-        });
-    }
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//     const robotIcon = document.querySelector(".fa-robot");
+//     if (robotIcon) {
+//         robotIcon.addEventListener("mouseenter", () => {
+//             robotIcon.classList.add("fa-bounce");
+//         });
+//         robotIcon.addEventListener("mouseleave", () => {
+//             robotIcon.classList.remove("fa-bounce");
+//         });
+//     }
+// });
 
 window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
