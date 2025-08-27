@@ -1023,6 +1023,12 @@ div.skill-card {
   }
 
 
+  /* Skills */
+
+  .skill-info {
+    width: 65%;
+  }
+
 }
 
 
@@ -1072,6 +1078,14 @@ div.skill-card {
     margin-left: 10%;
     margin-right: 10%;
   }
+
+
+  /* Skills */
+
+  .skill-info {
+    width: 58%;
+  }
+
 
 
 }
