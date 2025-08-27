@@ -15,9 +15,11 @@ function toggleMenu() {
     if (menu.classList.contains("active")) {
         icon.classList.remove("fa-bars");
         icon.classList.add("fa-xmark");
+        icon.classList.add("fa-solid");  // ensure correct style
     } else {
         icon.classList.remove("fa-xmark");
         icon.classList.add("fa-bars");
+        icon.classList.add("fa-solid");  // ensure correct style
     }
 
 }
