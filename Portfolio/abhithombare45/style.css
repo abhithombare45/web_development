@@ -920,9 +920,11 @@ body.skills-page-body header {
   /* So it doesn’t collapse */
 }
 
-.dropdown-skills-about a .project-button {
+.dropdown-skills-about a#project-button {
   background-color: #000;
-
+  padding: 10px;
+  border-radius: 8px;
+  color: yellow;
 }
 
 
