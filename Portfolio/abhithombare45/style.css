@@ -900,6 +900,10 @@ body.skills-page-body header {
   /* background-color: #000; */
 }
 
+body.skills-page-body header nav ul {
+  padding-right: 250px;
+}
+
 .dropdown-skills-about {
   position: relative;
   z-index: 200000;
